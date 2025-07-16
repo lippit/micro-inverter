@@ -772,6 +772,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+5V": [
+        "DGND"
+      ],
+      "+6V": [
+        "DGND"
+      ],
       "/AC Current sense/I_{IHighsense}": [
         "DGND"
       ],
@@ -823,6 +829,15 @@
       "/Driver5/PWM_H": [
         "II_{PWM_H4}"
       ],
+      "/Feeder/+12V": [
+        "PGND"
+      ],
+      "/Feeder/+5VP": [
+        "PGND"
+      ],
+      "/Feeder/+6VJP": [
+        "DGND"
+      ],
       "/Feeder/5V_{HV}": [
         "GNDREF"
       ],
@@ -830,6 +845,21 @@
         "GND"
       ],
       "/Feeder/5V_{ILV}": [
+        "DGND"
+      ],
+      "/Feeder/PWR_COM1": [
+        "DGND"
+      ],
+      "/Feeder/PWR_COM2": [
+        "DGND"
+      ],
+      "/Feeder/VAUX": [
+        "PGND"
+      ],
+      "/Feeder/VBoost": [
+        "PGND"
+      ],
+      "/Feeder/Vref": [
         "DGND"
       ],
       "/Flyback/+6VJP": [
@@ -922,6 +952,15 @@
       "/V_{IIHighmeasured}": [
         "DGND"
       ],
+      "DGND": [
+        "DGND"
+      ],
+      "MOSD": [
+        "IBUS"
+      ],
+      "MOSS": [
+        "PGND"
+      ],
       "Net-(C1001-Pad2)": [
         "GND"
       ],
@@ -938,16 +977,16 @@
         "DGND"
       ],
       "Net-(C5002-Pad2)": [
-        "I_{BUS}"
+        "IBUS"
       ],
       "Net-(C5005-Pad2)": [
-        "I_{BUS}"
+        "IBUS"
       ],
       "Net-(C5014-Pad2)": [
         "DGND"
       ],
       "Net-(C5018-Pad2)": [
-        "GNDREF"
+        "PGND"
       ],
       "Net-(C5026-Pad2)": [
         "DGND"
@@ -974,10 +1013,10 @@
         "DGND"
       ],
       "Net-(D5001-A)": [
-        "GND"
+        "PGND"
       ],
       "Net-(D5002-A)": [
-        "GND"
+        "PGND"
       ],
       "Net-(D5003-A)": [
         "GND"
@@ -989,16 +1028,16 @@
         "GND"
       ],
       "Net-(D5004-K)": [
-        "I_{BUS}"
+        "IBUS"
       ],
       "Net-(D5005-A)": [
         "I_{BUS}"
       ],
       "Net-(D5005-K)": [
-        "GND"
+        "PGND"
       ],
       "Net-(D5006-K)": [
-        "GND"
+        "PGND"
       ],
       "Net-(D5007-A)": [
         "DGND"
@@ -1115,7 +1154,7 @@
         "DGND"
       ],
       "Net-(JP5001-B)": [
-        "I_{BUS}"
+        "IBUS"
       ],
       "Net-(JP5002-A)": [
         "DGND"
@@ -1126,11 +1165,17 @@
       "Net-(PS1001-+Vin)": [
         "DGND"
       ],
+      "Net-(PS5001-+Vin)": [
+        "DGND"
+      ],
       "Net-(Q201-D)": [
         "GND"
       ],
       "Net-(Q201-G)": [
         "GND"
+      ],
+      "Net-(Q5002-G)": [
+        "PGND"
       ],
       "Net-(Q5002-S)": [
         "GND"
@@ -1352,25 +1397,25 @@
         "DGND"
       ],
       "Net-(U5003-COMP)": [
-        "GND"
+        "PGND"
       ],
       "Net-(U5003-CS)": [
-        "GND"
+        "PGND"
       ],
       "Net-(U5003-DRV)": [
-        "GND"
+        "PGND"
       ],
       "Net-(U5003-RT)": [
-        "GND"
+        "PGND"
       ],
       "Net-(U5003-SS)": [
-        "GND"
+        "PGND"
       ],
       "Net-(U5003-UVLO)": [
-        "GND"
+        "PGND"
       ],
       "Net-(U5003-VIN)": [
-        "I_{BUS}"
+        "IBUS"
       ],
       "Net-(U5006-K)": [
         "DGND"
@@ -1481,6 +1526,21 @@
         "DGND"
       ],
       "Net-(U913-INB)": [
+        "DGND"
+      ],
+      "PGND": [
+        "PGND"
+      ],
+      "unconnected-(T5001-Pad4)": [
+        "DGND"
+      ],
+      "unconnected-(T5001-Pad7)": [
+        "DGND"
+      ],
+      "unconnected-(T5001-Pad8)": [
+        "DGND"
+      ],
+      "unconnected-(T5001-Pad9)": [
         "DGND"
       ]
     },
@@ -1732,10 +1792,6 @@
       "Microcontroller"
     ],
     [
-      "3c383b65-9f0a-4906-940c-240ff73dab82",
-      "Feeder"
-    ],
-    [
       "f8f2ceab-ec52-4585-877e-f232fb762e0d",
       "Driver2"
     ],
@@ -1752,12 +1808,8 @@
       "Driver4"
     ],
     [
-      "727f3130-7a99-4ba7-bd69-3db984456208",
-      "Driver5"
-    ],
-    [
-      "7ec332d8-0f20-494b-9321-8b34e9b90b4b",
-      "Driver5"
+      "a88dd7d9-254d-4b48-927d-7d7eaa39cb38",
+      "Feeder"
     ],
     [
       "3ea151e7-6bb7-4df0-80a5-b2ad4a7f2d78",
