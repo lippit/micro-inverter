@@ -463,6 +463,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -781,6 +782,9 @@
       "/AC Current sense/I_{IHighsense}": [
         "DGND"
       ],
+      "/AC Current sense/V_{IHighsense}": [
+        "DGND"
+      ],
       "/AC Voltage sense/V_{IHighsense}": [
         "DGND"
       ],
@@ -796,7 +800,16 @@
       "/DC Current sense/I_{IHighsense}": [
         "DGND"
       ],
+      "/DC Current sense/V_{IHighsense}": [
+        "DGND"
+      ],
       "/DC Current sense1/I_{IHighsense}": [
+        "DGND"
+      ],
+      "/DC Current sense1/V_{IHighsense}": [
+        "DGND"
+      ],
+      "/DC Current sense2/V_{IHighsense}": [
         "DGND"
       ],
       "/DC Voltage sense/V_{IHighsense}": [
@@ -827,6 +840,12 @@
         "II_{PWM_H4}"
       ],
       "/Driver5/PWM_H": [
+        "II_{PWM_H4}"
+      ],
+      "/Driver6/Drive_H": [
+        "II_{PWM_H4}"
+      ],
+      "/Driver6/PWM_H": [
         "II_{PWM_H4}"
       ],
       "/Feeder/+12V": [
@@ -961,6 +980,9 @@
       "MOSS": [
         "PGND"
       ],
+      "Net-(C10-Pad2)": [
+        "IBUS"
+      ],
       "Net-(C1001-Pad2)": [
         "GND"
       ],
@@ -970,10 +992,22 @@
       "Net-(C102-Pad1)": [
         "II_{SW4}"
       ],
+      "Net-(C16-Pad2)": [
+        "IBUS"
+      ],
       "Net-(C306-Pad2)": [
         "I_{BUS}"
       ],
+      "Net-(C32-Pad2)": [
+        "PGND"
+      ],
+      "Net-(C40-Pad2)": [
+        "DGND"
+      ],
       "Net-(C411-Pad1)": [
+        "DGND"
+      ],
+      "Net-(C50-Pad2)": [
         "DGND"
       ],
       "Net-(C5002-Pad2)": [
@@ -990,6 +1024,12 @@
       ],
       "Net-(C5026-Pad2)": [
         "DGND"
+      ],
+      "Net-(D14-A)": [
+        "GNDREF"
+      ],
+      "Net-(D14-K)": [
+        "SW_II_VDD"
       ],
       "Net-(D201-A)": [
         "GND"
@@ -1011,6 +1051,9 @@
       ],
       "Net-(D403-A)": [
         "DGND"
+      ],
+      "Net-(D5-A)": [
+        "PGND"
       ],
       "Net-(D5001-A)": [
         "PGND"
@@ -1054,6 +1097,9 @@
       "Net-(D504-A)": [
         "GNDREF"
       ],
+      "Net-(D6-A)": [
+        "PGND"
+      ],
       "Net-(D601-K)": [
         "DGND"
       ],
@@ -1063,17 +1109,26 @@
       "Net-(D605-K)": [
         "GNDREF"
       ],
+      "Net-(D7-K)": [
+        "IBUS"
+      ],
       "Net-(D701-A)": [
         "GND"
       ],
       "Net-(D701-K)": [
         "SW_I_VDD"
       ],
+      "Net-(D8-K)": [
+        "PGND"
+      ],
       "Net-(D801-A)": [
         "GNDREF"
       ],
       "Net-(D801-K)": [
         "SW_II_VDD"
+      ],
+      "Net-(D9-K)": [
+        "PGND"
       ],
       "Net-(D901-A)": [
         "GNDREF"
@@ -1123,6 +1178,18 @@
       "Net-(J101E-Pin_1)": [
         "II_{BUS}"
       ],
+      "Net-(J12-Pad11)": [
+        "DGND"
+      ],
+      "Net-(J12-Pad9)": [
+        "DGND"
+      ],
+      "Net-(J13-Pad11)": [
+        "DGND"
+      ],
+      "Net-(J13-Pad9)": [
+        "DGND"
+      ],
       "Net-(J403-Pad11)": [
         "DGND"
       ],
@@ -1133,6 +1200,12 @@
         "DGND"
       ],
       "Net-(J404-Pad9)": [
+        "DGND"
+      ],
+      "Net-(JP1-B)": [
+        "IBUS"
+      ],
+      "Net-(JP2-A)": [
         "DGND"
       ],
       "Net-(JP401-B)": [
@@ -1159,14 +1232,23 @@
       "Net-(JP5002-A)": [
         "DGND"
       ],
+      "Net-(JP8-B)": [
+        "DGND"
+      ],
       "Net-(L101-Pad1)": [
         "II_{SW3}"
+      ],
+      "Net-(PS1-+Vin)": [
+        "DGND"
       ],
       "Net-(PS1001-+Vin)": [
         "DGND"
       ],
       "Net-(PS5001-+Vin)": [
         "DGND"
+      ],
+      "Net-(Q2-G)": [
+        "PGND"
       ],
       "Net-(Q201-D)": [
         "GND"
@@ -1179,6 +1261,12 @@
       ],
       "Net-(Q5002-S)": [
         "GND"
+      ],
+      "Net-(Q6-D)": [
+        "GNDREF"
+      ],
+      "Net-(Q6-G)": [
+        "GNDREF"
       ],
       "Net-(Q701-D)": [
         "GND"
@@ -1237,6 +1325,15 @@
       "Net-(R204-Pad1)": [
         "DGND"
       ],
+      "Net-(R23-Pad1)": [
+        "DGND"
+      ],
+      "Net-(R23-Pad2)": [
+        "DGND"
+      ],
+      "Net-(R40-Pad1)": [
+        "DGND"
+      ],
       "Net-(R5018-Pad1)": [
         "DGND"
       ],
@@ -1269,6 +1366,18 @@
       ],
       "Net-(R933-Pad1)": [
         "DGND"
+      ],
+      "Net-(Rv10-Pad2)": [
+        "II_{BUS}"
+      ],
+      "Net-(Rv11-Pad2)": [
+        "II_{BUS}"
+      ],
+      "Net-(Rv12-Pad2)": [
+        "II_{BUS}"
+      ],
+      "Net-(Rv5-Pad2)": [
+        "II_{BUS}"
       ],
       "Net-(Rv501-Pad2)": [
         "II_{BUS}"
@@ -1306,6 +1415,54 @@
       "Net-(Rv528-Pad2)": [
         "II_{BUS}"
       ],
+      "Net-(Rv6-Pad2)": [
+        "II_{BUS}"
+      ],
+      "Net-(Rv7-Pad2)": [
+        "II_{BUS}"
+      ],
+      "Net-(U1-VOUTN)": [
+        "DGND"
+      ],
+      "Net-(U1-VOUTP)": [
+        "DGND"
+      ],
+      "Net-(U10-+)": [
+        "DGND"
+      ],
+      "Net-(U10-VOUTN)": [
+        "DGND"
+      ],
+      "Net-(U10-VOUTP)": [
+        "DGND"
+      ],
+      "Net-(U14-DT)": [
+        "DGND"
+      ],
+      "Net-(U14-INA)": [
+        "DGND"
+      ],
+      "Net-(U14-INB)": [
+        "DGND"
+      ],
+      "Net-(U15-VOUTN)": [
+        "DGND"
+      ],
+      "Net-(U15-VOUTP)": [
+        "DGND"
+      ],
+      "Net-(U16-+)": [
+        "DGND"
+      ],
+      "Net-(U16--)": [
+        "DGND"
+      ],
+      "Net-(U2-+)": [
+        "DGND"
+      ],
+      "Net-(U2--)": [
+        "DGND"
+      ],
       "Net-(U202-DT)": [
         "DGND"
       ],
@@ -1313,6 +1470,33 @@
         "DGND"
       ],
       "Net-(U202-INB)": [
+        "DGND"
+      ],
+      "Net-(U3-COMP)": [
+        "PGND"
+      ],
+      "Net-(U3-CS)": [
+        "PGND"
+      ],
+      "Net-(U3-DRV)": [
+        "PGND"
+      ],
+      "Net-(U3-RT)": [
+        "PGND"
+      ],
+      "Net-(U3-SS)": [
+        "PGND"
+      ],
+      "Net-(U3-UVLO)": [
+        "PGND"
+      ],
+      "Net-(U3-VIN)": [
+        "IBUS"
+      ],
+      "Net-(U3-VOUTN)": [
+        "DGND"
+      ],
+      "Net-(U3-VOUTP)": [
         "DGND"
       ],
       "Net-(U302-VOUTN)": [
@@ -1381,6 +1565,12 @@
       "Net-(U312--)": [
         "DGND"
       ],
+      "Net-(U4-+)": [
+        "DGND"
+      ],
+      "Net-(U4--)": [
+        "DGND"
+      ],
       "Net-(U406A-+)": [
         "DGND"
       ],
@@ -1391,6 +1581,18 @@
         "DGND"
       ],
       "Net-(U406B--)": [
+        "DGND"
+      ],
+      "Net-(U5-+)": [
+        "DGND"
+      ],
+      "Net-(U5--)": [
+        "DGND"
+      ],
+      "Net-(U5-VOUTN)": [
+        "DGND"
+      ],
+      "Net-(U5-VOUTP)": [
         "DGND"
       ],
       "Net-(U5001-+)": [
@@ -1447,6 +1649,24 @@
       "Net-(U504--)": [
         "DGND"
       ],
+      "Net-(U6-+)": [
+        "DGND"
+      ],
+      "Net-(U6--)": [
+        "DGND"
+      ],
+      "Net-(U6-VOUTN)": [
+        "DGND"
+      ],
+      "Net-(U6-VOUTP)": [
+        "DGND"
+      ],
+      "Net-(U7-+)": [
+        "DGND"
+      ],
+      "Net-(U7--)": [
+        "DGND"
+      ],
       "Net-(U702-DT)": [
         "DGND"
       ],
@@ -1456,6 +1676,18 @@
       "Net-(U702-INB)": [
         "DGND"
       ],
+      "Net-(U8-K)": [
+        "DGND"
+      ],
+      "Net-(U8-REF)": [
+        "DGND"
+      ],
+      "Net-(U8-VOUTN)": [
+        "DGND"
+      ],
+      "Net-(U8-VOUTP)": [
+        "DGND"
+      ],
       "Net-(U802-DT)": [
         "DGND"
       ],
@@ -1463,6 +1695,12 @@
         "DGND"
       ],
       "Net-(U802-INB)": [
+        "DGND"
+      ],
+      "Net-(U9-+)": [
+        "DGND"
+      ],
+      "Net-(U9--)": [
         "DGND"
       ],
       "Net-(U902-DT)": [
@@ -1530,6 +1768,18 @@
       ],
       "PGND": [
         "PGND"
+      ],
+      "unconnected-(T2-Pad4)": [
+        "DGND"
+      ],
+      "unconnected-(T2-Pad7)": [
+        "DGND"
+      ],
+      "unconnected-(T2-Pad8)": [
+        "DGND"
+      ],
+      "unconnected-(T2-Pad9)": [
+        "DGND"
       ],
       "unconnected-(T5001-Pad4)": [
         "DGND"
@@ -1788,48 +2038,36 @@
       "Root"
     ],
     [
+      "7a2268b9-ff83-4df2-b348-603951e2b1e3",
+      "Feeder"
+    ],
+    [
       "48291310-5fe6-4a77-a547-af95500fda30",
       "Microcontroller"
     ],
     [
-      "f8f2ceab-ec52-4585-877e-f232fb762e0d",
-      "Driver2"
+      "49cbfb31-adfd-4fd6-9105-1cf4059fccab",
+      "AC Current sense"
     ],
     [
-      "4ab79c8d-add2-47be-9948-f2618e3c905b",
-      "Driver3"
+      "2f25300f-b8a7-49e6-a360-f9a461b61bb0",
+      "DC Current sense2"
     ],
     [
       "55e74199-39bc-4467-bea4-9d02b18f8903",
       "Driver4"
     ],
     [
-      "324a1d83-7e4d-4a47-82eb-40ae5cd6dc2e",
-      "Driver4"
+      "fd51dc45-0e6f-4136-8a1b-6e4efd4dc099",
+      "DC Current sense1"
     ],
     [
-      "a88dd7d9-254d-4b48-927d-7d7eaa39cb38",
-      "Feeder"
+      "03fcd4a0-5a0e-4c10-8349-06b9d82e2633",
+      "Driver6"
     ],
     [
       "3ea151e7-6bb7-4df0-80a5-b2ad4a7f2d78",
       "Grid Voltage sense"
-    ],
-    [
-      "d1c06756-560e-432b-9d3e-40c9fbc37d3d",
-      "AC Current sense"
-    ],
-    [
-      "ad3c13fb-446d-4592-a837-d522a5e61aeb",
-      "AC Voltage sense"
-    ],
-    [
-      "1e931c39-8b13-4d00-85dd-0609feb062c5",
-      "DC Current sense"
-    ],
-    [
-      "0a3ac5b2-ce64-414c-a2fb-91eb0fff9edf",
-      "DC Current sense1"
     ],
     [
       "7dbc5e16-b944-4673-aade-fad55742fe2d",
