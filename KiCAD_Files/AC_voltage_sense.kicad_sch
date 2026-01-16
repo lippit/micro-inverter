@@ -1127,6 +1127,28 @@
 		)
 		(uuid "4eb4dbe0-d15d-4165-abd5-487e179da1db")
 	)
+	(text "6.5mA@5V"
+		(exclude_from_sim no)
+		(at 74.93 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "85b5ff63-d6f7-4ebb-adc9-0d3db24d7564")
+	)
+	(text "6.5mA@5V"
+		(exclude_from_sim no)
+		(at 126.238 47.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "cfa218aa-298b-4879-92e8-a33c89d6826d")
+	)
 	(text "RA"
 		(exclude_from_sim no)
 		(at 134.112 87.122 0)
@@ -1300,7 +1322,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 48.26) (xy 78.74 50.8)
+			(xy 81.28 48.26) (xy 81.28 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1372,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 60.96) (xy 76.2 60.96)
+			(xy 81.28 60.96) (xy 78.74 60.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -1880,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 55.88) (xy 78.74 60.96)
+			(xy 81.28 55.88) (xy 81.28 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1900,7 +1922,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 48.26) (xy 85.09 48.26)
+			(xy 81.28 48.26) (xy 85.09 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1952,7 +1974,7 @@
 	)
 	(hierarchical_label "In-"
 		(shape input)
-		(at 76.2 60.96 180)
+		(at 78.74 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1971,6 +1993,53 @@
 			(justify right)
 		)
 		(uuid "e430cfec-70ad-4bfd-8a92-d9a06671e9c1")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 100.33 35.56) (xy 100.33 107.95) (xy 195.58 107.95) (xy 195.58 35.56)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid d4b0f28e-090b-47b2-ad03-b5e76b2ad923)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 110.49 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc27481d-67ab-414d-b8d4-438ae054cd42")
+		(property "Netclass" "DGND"
+			(at 111.1885 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -148.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3256,10 +3325,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5adf6a3a-a063-42cf-b66e-678c3fad5793")
 		(property "Reference" "U501"
-			(at 100.33 57.15 0)
+			(at 89.154 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3267,7 +3335,7 @@
 			)
 		)
 		(property "Value" "AMC1301DWR"
-			(at 100.33 59.69 0)
+			(at 93.218 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc1100.pdf?ts=1597048467257&ref_url=https%253A%252F%252Fwww.google.com%252F"
+		(property "Datasheet" "${KIPRJMOD}\\datasheets\\amc1301.pdf"
 			(at 100.33 81.28 0)
 			(effects
 				(font
@@ -4071,7 +4139,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 78.74 53.34 180)
+		(at 81.28 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4079,7 +4147,7 @@
 		(dnp no)
 		(uuid "bcf6d27c-233e-49f4-aa36-6ee4b6a31970")
 		(property "Reference" "C502"
-			(at 76.2 52.07 0)
+			(at 78.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,7 +4156,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 76.2 54.61 0)
+			(at 78.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +4165,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 78.74 53.34 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +4174,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}\\datasheet\\KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 78.74 53.34 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 53.34 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +4192,7 @@
 			)
 		)
 		(property "manf#" "C1206C104K5RAC7867"
-			(at 78.74 53.34 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,7 +4201,7 @@
 			)
 		)
 		(property "DNP" ""
-			(at 78.74 53.34 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4142,7 +4210,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 80.01 49.53 90)
+			(at 82.55 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,7 +4219,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 73.66 57.15 0)
+			(at 76.2 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +4227,7 @@
 			)
 		)
 		(property "Functional Block" "Measurement"
-			(at 78.74 53.34 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4236,7 @@
 			)
 		)
 		(property "Metal content" "BaTiO3"
-			(at 78.74 53.34 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,7 +4245,7 @@
 			)
 		)
 		(property "Subfunction" "VIHigh measure"
-			(at 78.74 53.34 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4254,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 78.74 53.34 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4263,7 @@
 			)
 		)
 		(property "Technology" ""
-			(at 78.74 53.34 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4272,7 @@
 			)
 		)
 		(property "LCSC" "C5449000"
-			(at 78.74 53.34 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

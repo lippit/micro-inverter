@@ -1116,7 +1116,7 @@
 	)
 	(text "Circuit can be seen as non inverting opamp\nwith gain : G = 1+(RC/RD) and a potential on non-inverting\ninput equal to :\n\nV+ =(VOUTP-VOUTN)*(RA/(RA+RB))\n\nV_{Diff} = (VOUTP-VOUTN)\n\nV+ = V_{Diff}*(RA/(RA+RB))\nV+ = V_{Diff}*(27k/(27k+27k))\nV+ = V_{Diff}*0.5"
 		(exclude_from_sim no)
-		(at 44.45 137.16 0)
+		(at 44.196 150.114 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1914,6 +1914,53 @@
 			(justify right)
 		)
 		(uuid "d08ce1e3-8c43-46a5-9626-1d629ba0fed0")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 73.66 52.07) (xy 73.66 124.46) (xy 168.91 124.46) (xy 168.91 52.07)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8affa204-ffd2-43c6-8cad-6021ce25fd24)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 83.82 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4753afb-368e-45ae-b0ce-b3f82eeac59e")
+		(property "Netclass" "DGND"
+			(at 84.5185 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3392,7 +3439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}\\datasheets\\amc1311.pdf"
+		(property "Datasheet" "./datasheets/amc1311.pdf"
 			(at 102.87 71.12 0)
 			(effects
 				(font
@@ -3725,7 +3772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_{IGND}"
+		(property "Value" "+5V_{HV}"
 			(at 58.42 57.15 0)
 			(effects
 				(font

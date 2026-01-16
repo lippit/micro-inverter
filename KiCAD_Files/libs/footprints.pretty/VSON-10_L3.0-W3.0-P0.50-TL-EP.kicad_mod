@@ -466,15 +466,15 @@
 		(uuid "1e1c6f57-53af-4e18-930d-f5f13588f38c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/VSON-10_L3.0-W3.0-H0.6-P0.50.step"
+	(model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/VSON10.step"
 		(offset
 			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.3937 0.3937 0.3937)
 		)
 		(rotate
-			(xyz -0 -0 -270)
+			(xyz -0 -0 -0)
 		)
 	)
 )

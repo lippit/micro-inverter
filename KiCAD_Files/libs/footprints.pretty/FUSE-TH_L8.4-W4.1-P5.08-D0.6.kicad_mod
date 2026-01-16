@@ -364,9 +364,9 @@
 		(uuid "fa2fc585-0c41-4fbf-9ba0-0f09a8761221")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/FUSE-TH_L8.4-W4.1-P5.08-D0.6.step"
+	(model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/fuse.step"
 		(offset
-			(xyz 0 0 -5)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
