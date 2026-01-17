@@ -4398,7 +4398,7 @@
 	)
 	(rectangle
 		(start 23.495 15.24)
-		(end 196.85 120.65)
+		(end 229.87 120.65)
 		(stroke
 			(width 0)
 			(type default)
@@ -4509,10 +4509,6 @@
 	(no_connect
 		(at 52.07 102.87)
 		(uuid "1f56d5c4-470a-4649-88dc-7bbb0d8dfa23")
-	)
-	(no_connect
-		(at 99.06 83.82)
-		(uuid "26ee81b7-3b67-4875-b49a-22d2e3ae65f6")
 	)
 	(no_connect
 		(at 132.08 105.41)
@@ -4782,6 +4778,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 81.28) (xy 105.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78454aa0-8ff2-4ccf-9de0-8b79862403fd")
+	)
+	(wire
+		(pts
 			(xy 99.06 63.5) (xy 105.41 63.5)
 		)
 		(stroke
@@ -4839,6 +4845,16 @@
 			(type default)
 		)
 		(uuid "8eaf9347-6db9-402f-8135-4eb9674b9f8c")
+	)
+	(wire
+		(pts
+			(xy 99.06 83.82) (xy 105.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2767ab-019e-4110-a062-caddffdbea89")
 	)
 	(wire
 		(pts
@@ -4929,6 +4945,16 @@
 			(type default)
 		)
 		(uuid "b369f089-bc00-4ed9-a233-cee16f12cd80")
+	)
+	(wire
+		(pts
+			(xy 58.42 81.28) (xy 66.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb736586-5627-43d4-9b53-b91aec068271")
 	)
 	(wire
 		(pts
@@ -5324,7 +5350,7 @@
 			)
 		)
 		(column_widths 11.43 11.43)
-		(row_heights 5.08 3.302 3.302 3.302 3.302 3.302 3.302 3.302 3.302)
+		(row_heights 5.08 3.302 3.302 3.302 3.302 3.302 3.302 3.302 3.302 3.302)
 		(cells
 			(table_cell "µVerter"
 				(exclude_from_sim no)
@@ -5636,6 +5662,40 @@
 				)
 				(uuid "207c7132-e5c0-456a-ac72-d50f5172751d")
 			)
+			(table_cell "Relay"
+				(exclude_from_sim no)
+				(at 152.4 83.566 0)
+				(size 11.43 3.302)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "207c7132-e5c0-456a-ac72-d50f5172751d")
+			)
+			(table_cell "TIM1 CH1n"
+				(exclude_from_sim no)
+				(at 163.83 83.566 0)
+				(size 11.43 3.302)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "207c7132-e5c0-456a-ac72-d50f5172751d")
+			)
 		)
 	)
 	(label "BOOT0"
@@ -5899,6 +5959,28 @@
 		)
 		(uuid "7edaea91-801f-411f-88e6-72e6a6c40faf")
 	)
+	(hierarchical_label "Relay"
+		(shape output)
+		(at 105.41 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f96b564-80e0-40c1-bff0-0638e09ff3c1")
+	)
+	(hierarchical_label "DIS_{HV}"
+		(shape output)
+		(at 105.41 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85b8235b-a1b8-4786-b6dc-62f63df38fa6")
+	)
 	(hierarchical_label "PWM_{ILow1}"
 		(shape output)
 		(at 58.42 68.58 180)
@@ -5956,6 +6038,17 @@
 	)
 	(hierarchical_label "EN_{I}"
 		(shape output)
+		(at 58.42 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6aa4988-8a87-4930-a6e6-e142143a1dd2")
+	)
+	(hierarchical_label "EN_{I}"
+		(shape output)
 		(at 73.66 200.66 0)
 		(effects
 			(font
@@ -5997,6 +6090,52 @@
 			(justify left)
 		)
 		(uuid "f5405d8c-eb5e-4dd5-bb76-0eb2e2008a4f")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 17.78 13.97) (xy 236.22 13.97) (xy 236.22 129.54) (xy 17.78 129.54)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid d3df57cf-3758-40ca-af35-f17f64345f56)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 21.59 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e34ac779-705e-4038-8bb9-d6a29973a810")
+		(property "Netclass" "DGND"
+			(at 22.2885 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -231.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Symbols:DGND")

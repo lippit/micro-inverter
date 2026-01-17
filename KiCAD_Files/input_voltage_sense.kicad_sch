@@ -1154,6 +1154,52 @@
 		)
 		(uuid "b45aad3a-1deb-4f8f-b840-44a90153e518")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 39.37 48.26) (xy 130.81 48.26) (xy 130.81 119.38) (xy 39.37 119.38)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 01afcd02-ec8f-48dc-844e-fcd29c7c0a2c)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 44.45 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "004c7620-5e77-43d5-aba0-0e13d4a0f78b")
+		(property "Netclass" "DGND"
+			(at 45.1485 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -208.28 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Symbols:DGND")
 		(at 113.03 82.55 0)

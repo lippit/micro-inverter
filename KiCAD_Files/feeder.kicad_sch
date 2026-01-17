@@ -3121,6 +3121,12 @@
 		(uuid "90655fa5-2bd0-47ca-8e3f-c4a0ed6e2367")
 	)
 	(junction
+		(at 214.63 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98471dc9-b9cc-432c-8db1-f3ef17de9b80")
+	)
+	(junction
 		(at 180.34 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3947,6 +3953,16 @@
 			(type default)
 		)
 		(uuid "675a31a1-9dd0-4925-a5e4-03495f334492")
+	)
+	(wire
+		(pts
+			(xy 214.63 220.98) (xy 217.17 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67626dfb-c727-4934-826e-e3f49eb00787")
 	)
 	(wire
 		(pts
@@ -5028,6 +5044,63 @@
 			(justify right)
 		)
 		(uuid "263dbf49-c00e-4408-8148-ea5c2aa11dc7")
+	)
+	(hierarchical_label "Neut_{REF}"
+		(shape input)
+		(at 217.17 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9349dd88-e288-4911-8bf9-8dbe724cb51d")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 26.67 247.65) (xy 165.1 247.65) (xy 165.1 149.86) (xy 278.13 149.86) (xy 278.13 85.09) (xy 26.67 85.09)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 594b89b0-4d5b-4040-ac40-2aa6b6637093)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 46.99 247.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbc71f76-0655-420d-bfb8-a21c56dbc78d")
+		(property "Netclass" "DGND"
+			(at 47.6885 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -322.58 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")

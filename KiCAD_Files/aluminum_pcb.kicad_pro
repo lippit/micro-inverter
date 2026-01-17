@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 2.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -636,36 +636,77 @@
         "GND_HV",
         "SN2"
       ],
+      "+3.3V_{DGND}": [
+        "DGND"
+      ],
       "+5V_{DGND}": [
         "DGND"
       ],
-      "/Microcontroller/I_{AC}": [
+      "/Feeder/DIS_{HV}": [
+        "DGND"
+      ],
+      "/Feeder/Neut_{REF}": [
         "AC"
+      ],
+      "/Feeder/V_{ILow}": [
+        "DGND"
+      ],
+      "/Microcontroller/BOOT0": [
+        "DGND"
+      ],
+      "/Microcontroller/EN_{I}": [
+        "DGND"
+      ],
+      "/Microcontroller/I_{AC}": [
+        "AC",
+        "DGND"
+      ],
+      "/Microcontroller/I_{ILow1}": [
+        "DGND"
+      ],
+      "/Microcontroller/I_{ILow2}": [
+        "DGND"
+      ],
+      "/Microcontroller/PWM_{IHigh1}": [
+        "DGND"
+      ],
+      "/Microcontroller/PWM_{IHigh2}": [
+        "DGND"
+      ],
+      "/Microcontroller/PWM_{IIHigh1}": [
+        "DGND"
+      ],
+      "/Microcontroller/PWM_{IIHigh2}": [
+        "DGND"
+      ],
+      "/Microcontroller/PWM_{IILow1}": [
+        "DGND"
+      ],
+      "/Microcontroller/PWM_{IILow2}": [
+        "DGND"
+      ],
+      "/Microcontroller/PWM_{ILow1}": [
+        "DGND"
+      ],
+      "/Microcontroller/PWM_{ILow2}": [
+        "DGND"
       ],
       "/Microcontroller/Relay": [
         "DGND"
       ],
       "/Microcontroller/V_{AC}": [
-        "AC"
+        "AC",
+        "DGND"
       ],
       "/Microcontroller/V_{DCBus}": [
         "DGND",
         "GND_HV"
       ],
-      "/Power/AC Current sense/I_{ACsense}": [
-        "DGND"
-      ],
       "/Power/AC Current sense/In+": [
-        "AC"
-      ],
-      "/Power/AC Current sense/In-": [
         "AC"
       ],
       "/Power/Grid Voltage sense/In+": [
         "AC"
-      ],
-      "/Power/Grid Voltage sense/V_{ACsense}": [
-        "DGND"
       ],
       "/Power/HO1": [
         "LSW1"
@@ -675,8 +716,7 @@
       ],
       "/Power/HV_{BUS}": [
         "GND_HV",
-        "SN1",
-        "SN2"
+        "HV"
       ],
       "/Power/LSW1": [
         "LSW1"
@@ -705,6 +745,9 @@
       "/Power/Rect2": [
         "GND_HV",
         "HV"
+      ],
+      "/Power/V_{ILow}": [
+        "DGND"
       ],
       "/SN1": [
         "GND_HV",
@@ -867,10 +910,154 @@
       "Net-(U502--)": [
         "DGND"
       ],
+      "Net-(U701-+)": [
+        "DGND"
+      ],
+      "Net-(U702-SW)": [
+        "DGND"
+      ],
+      "Net-(U702-VBST)": [
+        "DGND"
+      ],
+      "Net-(U702-VFB)": [
+        "DGND"
+      ],
+      "Net-(U703-VD1)": [
+        "DGND"
+      ],
+      "Net-(U703-VD2)": [
+        "DGND"
+      ],
+      "Net-(U703-VIN)": [
+        "DGND"
+      ],
+      "Net-(U704-VD1)": [
+        "DGND"
+      ],
+      "Net-(U704-VD2)": [
+        "DGND"
+      ],
+      "Net-(U704-VIN)": [
+        "DGND"
+      ],
+      "Net-(U707-BOOT)": [
+        "DGND"
+      ],
+      "Net-(U707-EN)": [
+        "DGND"
+      ],
+      "Net-(U707-FB)": [
+        "DGND"
+      ],
+      "Net-(U707-PG)": [
+        "DGND"
+      ],
+      "Net-(U707-RT{slash}Sync)": [
+        "DGND"
+      ],
+      "Net-(U707-SW)": [
+        "DGND"
+      ],
       "Net-(U8-+)": [
         "DGND"
       ],
       "Net-(U8--)": [
+        "DGND"
+      ],
+      "unconnected-(U703-CLK-Pad3)": [
+        "DGND"
+      ],
+      "unconnected-(U704-CLK-Pad3)": [
+        "DGND"
+      ],
+      "unconnected-(U704-EN-Pad1)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-+VBAT-Pad39)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PA10-Pad15)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PA5-Pad32)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PA6-Pad34)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PB0-Pad31)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PB1-Pad37)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PB11-Pad1)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PB4-Pad20)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PB5-Pad53)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PB6-Pad55)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PB7-Pad56)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PC10-Pad16)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PC11-Pad17)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PC4-Pad35)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PC6-Pad7)": [
+        "DGND"
+      ],
+      "unconnected-(U901A-PC7-Pad9)": [
+        "DGND"
+      ],
+      "unconnected-(U901B-PA4-Pad45)": [
+        "DGND"
+      ],
+      "unconnected-(U901B-PA7-Pad44)": [
+        "DGND"
+      ],
+      "unconnected-(U901B-PB10-Pad41)": [
+        "DGND"
+      ],
+      "unconnected-(U901B-PB2-Pad42)": [
+        "DGND"
+      ],
+      "unconnected-(U901B-PC5-Pad43)": [
+        "DGND"
+      ],
+      "unconnected-(U901C-PA13-Pad46)": [
+        "DGND"
+      ],
+      "unconnected-(U901C-PA14-Pad47)": [
+        "DGND"
+      ],
+      "unconnected-(U901C-PA15-Pad48)": [
+        "DGND"
+      ],
+      "unconnected-(U901C-PA2-Pad51)": [
+        "DGND"
+      ],
+      "unconnected-(U901C-PA3-Pad52)": [
+        "DGND"
+      ],
+      "unconnected-(U901C-PB3-Pad50)": [
+        "DGND"
+      ],
+      "unconnected-(U901C-PD2-Pad49)": [
+        "DGND"
+      ],
+      "unconnected-(U901D-RST-Pad59)": [
         "DGND"
       ]
     },

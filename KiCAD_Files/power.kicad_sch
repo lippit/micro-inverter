@@ -7058,6 +7058,12 @@
 		(uuid "33cf96cd-0f00-4760-a2f1-f0bfd0efbfad")
 	)
 	(junction
+		(at 322.58 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34d846fa-d745-4d5f-8e61-1e8d10ef4bd8")
+	)
+	(junction
 		(at 213.36 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8283,6 +8289,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 339.09) (xy 125.73 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13fb7f90-d685-4398-a265-4390b18ff117")
+	)
+	(wire
+		(pts
 			(xy 172.72 247.65) (xy 181.61 247.65)
 		)
 		(stroke
@@ -8445,16 +8461,6 @@
 			(color 0 132 132 1)
 		)
 		(uuid "1b252fe2-2299-4df6-a2bf-a69db73e2b15")
-	)
-	(wire
-		(pts
-			(xy 445.77 212.09) (xy 445.77 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c694c48-cff0-4978-8766-67396ed69b85")
 	)
 	(wire
 		(pts
@@ -9743,6 +9749,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 80.01) (xy 322.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8fd2b2-4daf-4eef-bdf3-418be7bc1f11")
+	)
+	(wire
+		(pts
 			(xy 314.96 20.32) (xy 317.5 20.32)
 		)
 		(stroke
@@ -9950,6 +9966,17 @@
 			(color 0 132 132 1)
 		)
 		(uuid "547b9fba-dc5e-493f-bfe9-64b38275171c")
+	)
+	(wire
+		(pts
+			(xy 322.58 80.01) (xy 323.85 80.01)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "54ac1780-0ce5-4f5e-97f3-580c9fce5bb0")
 	)
 	(wire
 		(pts
@@ -10308,6 +10335,16 @@
 			(type default)
 		)
 		(uuid "63a685fe-f0f1-4f6b-8145-58e741a2c196")
+	)
+	(wire
+		(pts
+			(xy 134.62 322.58) (xy 125.73 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648ea2ed-faf0-4b34-9595-0564a3c904a0")
 	)
 	(wire
 		(pts
@@ -10739,7 +10776,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 80.01) (xy 323.85 80.01)
+			(xy 316.23 80.01) (xy 322.58 80.01)
 		)
 		(stroke
 			(width 0.5)
@@ -12389,16 +12426,6 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 212.09) (xy 462.28 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5ec92c1-4c94-43c5-bf2d-ed9086e8c6ee")
-	)
-	(wire
-		(pts
 			(xy 151.13 95.25) (xy 152.4 95.25)
 		)
 		(stroke
@@ -12834,6 +12861,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 318.77) (xy 134.62 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8164c9b-f1d8-4c38-85dc-47b7afa336c4")
+	)
+	(wire
+		(pts
 			(xy 66.04 46.99) (xy 66.04 48.26)
 		)
 		(stroke
@@ -12970,6 +13007,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "cd6f9d8d-abe8-4383-b8db-d10af53ad78b")
+	)
+	(wire
+		(pts
+			(xy 318.77 85.09) (xy 322.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce563e50-6eb2-462e-b432-44e4048a8c74")
 	)
 	(wire
 		(pts
@@ -13397,6 +13444,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "e1860277-e6f9-471d-a887-b728d474be71")
+	)
+	(wire
+		(pts
+			(xy 134.62 335.28) (xy 134.62 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ae4ce0-f9a6-415a-86fb-9623936c1d6d")
 	)
 	(wire
 		(pts
@@ -14172,6 +14229,16 @@
 		)
 		(uuid "ffe0f219-4876-4bd6-81af-07fc06651721")
 	)
+	(label "ThPad_{IND2}"
+		(at 152.4 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07906357-e319-4941-b0ed-1810b33c2f77")
+	)
 	(label "HO2"
 		(at 166.37 201.93 0)
 		(effects
@@ -14211,6 +14278,16 @@
 			(justify right bottom)
 		)
 		(uuid "2f23cf74-6ddc-41de-8794-f7a05684824a")
+	)
+	(label "ThPad_{IND2}"
+		(at 125.73 339.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b7839c4-5e0a-4f29-bbc9-e857ef819224")
 	)
 	(label "V_{IHigh1}"
 		(at 201.93 317.5 0)
@@ -14273,6 +14350,16 @@
 		)
 		(uuid "4f62bd0b-8e65-4e69-a21f-e11b2b956db1")
 	)
+	(label "ThPad_{IND1}"
+		(at 152.4 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53d56a5a-7b7f-4cca-85ab-54b45e41dbaa")
+	)
 	(label "LSW1"
 		(at 189.23 147.32 0)
 		(effects
@@ -14302,6 +14389,16 @@
 			(justify left bottom)
 		)
 		(uuid "5bb5b675-6dfd-42e6-ab52-34d3e30f782d")
+	)
+	(label "ThPad_{IND1}"
+		(at 125.73 322.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66340800-4168-4ea6-b453-6712f6570139")
 	)
 	(label "Rect1"
 		(at 444.5 200.66 0)
@@ -14661,6 +14758,17 @@
 		)
 		(uuid "d121e2f5-6e97-400e-a8e8-81596409ff4a")
 	)
+	(hierarchical_label "Neut_{REF}"
+		(shape output)
+		(at 318.77 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2e70661-0ef2-450f-aa43-5c6c87e1a6bf")
+	)
 	(hierarchical_label "I_{ILow2}"
 		(shape output)
 		(at 133.35 242.57 180)
@@ -14755,7 +14863,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 54.61 25.4) (xy 54.61 73.66) (xy 121.92 73.66) (xy 121.92 25.4)
+				(xy 54.61 25.4) (xy 54.61 73.66) (xy 121.92 73.66) (xy 121.92 38.1) (xy 109.22 38.1) (xy 109.22 25.4)
 			)
 			(stroke
 				(width 0)
@@ -14805,7 +14913,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 123.19 25.4) (xy 123.19 69.85) (xy 213.36 69.85) (xy 213.36 25.4)
+				(xy 123.19 25.4) (xy 123.19 69.85) (xy 213.36 69.85) (xy 213.36 35.56) (xy 175.26 35.56) (xy 175.26 25.4)
 			)
 			(stroke
 				(width 0)
@@ -15193,6 +15301,37 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 60.96 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3da5ac7-d8ac-48b1-b5bb-85639354300d")
+		(property "Netclass" "HV"
+			(at 61.6585 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -160.02 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 273.05 227.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15224,7 +15363,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 198.12 25.4 180)
+		(at 200.66 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15234,7 +15373,7 @@
 		)
 		(uuid "f705bcc0-8328-4d71-bda6-87b0f882ea51")
 		(property "Netclass" "SN2"
-			(at 198.8185 27.94 0)
+			(at 201.3585 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15243,7 +15382,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -7.62 -8.89 0)
+			(at -5.08 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15337,6 +15476,83 @@
 			(project "aluminum_pcb"
 				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e"
 					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 134.62 316.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01797c0f-561a-474e-85d4-c74adc6d0dd9")
+		(property "Reference" "HS110"
+			(at 137.16 311.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5x3mm pad 3mm high"
+			(at 137.414 324.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:BTC-533-ZN01"
+			(at 134.3152 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.3152 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 134.62 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42404563"
+			(at 134.62 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "393d75aa-5814-42d6-9305-e8f386e06556")
+		)
+		(instances
+			(project "aluminum_pcb"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e"
+					(reference "HS110")
 					(unit 1)
 				)
 			)
@@ -16037,82 +16253,6 @@
 			(project "aluminum_pcb"
 				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink_Pad")
-		(at 462.28 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "154f73b3-ae93-425c-9a0d-b9c1b0d53802")
-		(property "Reference" "HS103"
-			(at 459.994 205.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5x3mm pad 3mm high"
-			(at 466.09 210.1849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Footprints:BTC-533-ZN01"
-			(at 462.5848 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 462.5848 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heatsink with electrical connection, 1 pin"
-			(at 462.28 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C42404563"
-			(at 462.28 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c931705-8103-4d21-8401-9e00eae4cbc5")
-		)
-		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e"
-					(reference "HS103")
 					(unit 1)
 				)
 			)
@@ -17665,72 +17805,6 @@
 			(project "aluminum_pcb"
 				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e"
 					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 462.28 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b506c31-a4c9-4ff7-8d61-96c846aab85e")
-		(property "Reference" "#PWR0133"
-			(at 462.28 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_{HV}"
-			(at 457.962 217.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 462.28 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 462.28 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 462.28 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b17bac8-0aa5-4f87-8fd4-bd83145198aa")
-		)
-		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e"
-					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -22927,72 +23001,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 445.77 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "975960cf-0ffb-4d39-952e-83baabfa5287")
-		(property "Reference" "#PWR0132"
-			(at 445.77 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_{HV}"
-			(at 441.452 217.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 445.77 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 445.77 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 445.77 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc08e593-fc30-452c-8820-515fad85a217")
-		)
-		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e"
-					(reference "#PWR0132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 207.01 205.74 0)
 		(unit 1)
@@ -27888,82 +27896,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink_Pad")
-		(at 445.77 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f56742e1-53cd-4124-9263-0cb37161f5a7")
-		(property "Reference" "HS102"
-			(at 442.468 204.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5x3mm pad 3mm high"
-			(at 449.58 210.1849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Footprints:BTC-533-ZN01"
-			(at 446.0748 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 446.0748 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heatsink with electrical connection, 1 pin"
-			(at 445.77 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C42404563"
-			(at 445.77 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f402775-9a8a-416b-b8a6-d816538eab72")
-		)
-		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e"
-					(reference "HS102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 224.79 101.6 0)
 		(mirror y)
@@ -28826,6 +28758,83 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 134.62 332.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff86da76-3560-4bab-81e2-6548ee284c00")
+		(property "Reference" "HS111"
+			(at 137.16 328.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5x3mm pad 3mm high"
+			(at 137.414 340.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:BTC-533-ZN01"
+			(at 134.3152 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.3152 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 134.62 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42404563"
+			(at 134.62 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5a4292e-f091-4ef1-81ad-ef7f85b92870")
+		)
+		(instances
+			(project "aluminum_pcb"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e"
+					(reference "HS111")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 330.2 76.2)
 		(size 15.24 11.176)
@@ -28880,9 +28889,9 @@
 				(justify left)
 			)
 		)
-		(pin "V_{IHighsense}" output
+		(pin "I_{ACsense}" output
 			(at 330.2 85.09 180)
-			(uuid "b3ee2ae2-bbaa-4738-8a90-aea5bf02009d")
+			(uuid "f9998c35-f710-48df-bc93-cc80255d4fdc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29024,9 +29033,9 @@
 				(justify left)
 			)
 		)
-		(pin "V_{IHighsense}" output
+		(pin "V_{ACsense}" output
 			(at 331.47 69.85 270)
-			(uuid "4555a975-ccd3-49d7-bfe3-4f0a52cb7cd9")
+			(uuid "39d8696e-e6fd-42db-99b7-76175a3ced26")
 			(effects
 				(font
 					(size 1.27 1.27)

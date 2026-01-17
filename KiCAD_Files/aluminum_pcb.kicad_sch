@@ -2257,6 +2257,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 160.02) (xy 201.93 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e745079-b19c-4634-993e-1409b20529ff")
+	)
+	(wire
+		(pts
 			(xy 78.74 238.76) (xy 73.66 238.76)
 		)
 		(stroke
@@ -2418,6 +2428,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 175.26) (xy 128.27 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fdbfff5-b6b3-4895-a434-8648585463b7")
+	)
+	(wire
+		(pts
 			(xy 173.99 129.54) (xy 186.69 129.54)
 		)
 		(stroke
@@ -2475,6 +2495,16 @@
 			(type default)
 		)
 		(uuid "b3658dd9-b2a5-4952-aafd-4bf6f2e3cd0b")
+	)
+	(wire
+		(pts
+			(xy 102.87 161.29) (xy 102.87 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d05c21-e7e5-4454-a12a-f2a7799fe043")
 	)
 	(wire
 		(pts
@@ -4833,7 +4863,7 @@
 	)
 	(sheet
 		(at 69.342 72.39)
-		(size 58.928 88.392)
+		(size 58.928 88.9)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4857,7 +4887,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 69.342 161.3666 0)
+			(at 69.342 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,6 +5075,16 @@
 				(justify right)
 			)
 		)
+		(pin "Neut_{REF}" output
+			(at 102.87 161.29 270)
+			(uuid "fa9e63c1-c37a-40e4-9296-c705eb3f4868")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "aluminum_pcb"
 				(path "/741fe409-f733-4088-8b5c-1042510db0b9"
@@ -5108,16 +5148,6 @@
 				(justify left)
 			)
 		)
-		(pin "HRTIM_CHC1_DGND" output
-			(at 229.87 91.44 0)
-			(uuid "e569a504-8c8a-4c20-9d5e-b9d38a3ad444")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I_{AC}" input
 			(at 186.69 149.86 180)
 			(uuid "5517d6a9-6df6-415b-974e-7b7fbb4de155")
@@ -5128,26 +5158,6 @@
 				(justify left)
 			)
 		)
-		(pin "I_{IHighsense}" input
-			(at 229.87 95.25 0)
-			(uuid "1b63ae15-4870-4d75-a2e5-1d4c9520884d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HRTIM_CHF1_DGND" output
-			(at 229.87 99.06 0)
-			(uuid "a22cb2ea-6fdb-4b60-8dd0-20810fb259e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PWM_{ILow1}" output
 			(at 186.69 86.36 180)
 			(uuid "2eaf5829-217c-4d77-9343-118e7c67a3de")
@@ -5156,16 +5166,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "HRTIM_CHA2_DGND" output
-			(at 229.87 102.87 0)
-			(uuid "bb0265e7-ec85-404a-ad22-24c26947e698")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "PWM_{IIHigh1}" output
@@ -5198,16 +5198,6 @@
 				(justify left)
 			)
 		)
-		(pin "HRTIM_CHC2_DGND" output
-			(at 229.87 105.41 0)
-			(uuid "219efb14-cdf5-44bb-9d6d-42d382a0fc66")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PWM_{IHigh1}" output
 			(at 186.69 78.74 180)
 			(uuid "0286c2ef-3512-4b3b-a1a6-d70a6ee1a3db")
@@ -5216,16 +5206,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "HRTIM_CHF2_DGND" output
-			(at 229.87 106.68 0)
-			(uuid "e8651460-968e-48e7-987e-ba7ca0a42088")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "PWM_{IILow2}" output
@@ -5248,36 +5228,6 @@
 				(justify left)
 			)
 		)
-		(pin "V_{IIHighsense}" input
-			(at 229.87 111.76 0)
-			(uuid "05695d70-4805-4456-9e05-cf525c964e16")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HRTIM_CHE1_DGND" output
-			(at 229.87 116.84 0)
-			(uuid "61b47d9d-1dd5-47e3-ad1d-f7173f2883f2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HRTIM_CHA1_DGND" output
-			(at 229.87 120.65 0)
-			(uuid "761cfd3e-1b23-4e62-b672-ce046d848540")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I_{ILow2}" input
 			(at 186.69 106.68 180)
 			(uuid "34b9d5c1-dc14-40ba-ac4e-d8a80a5f9511")
@@ -5288,16 +5238,6 @@
 				(justify left)
 			)
 		)
-		(pin "HRTIM_CHE2_DGND" output
-			(at 229.87 124.46 0)
-			(uuid "addc2923-9385-4867-9169-7a8c86d74fcf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PWM_{ILow2}" output
 			(at 186.69 88.9 180)
 			(uuid "6e559fb5-20bf-464f-977f-1bf24a871db1")
@@ -5306,16 +5246,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "I_{IIHighsense}" input
-			(at 229.87 129.54 0)
-			(uuid "e8b9b370-47d2-4fa7-91ff-a51e6463d260")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "PWM_{IIHigh2}" output
@@ -5348,19 +5278,19 @@
 				(justify left)
 			)
 		)
-		(pin "V_{IHighsense}" input
-			(at 229.87 133.35 0)
-			(uuid "6161bd47-506e-4c27-b008-63e30fd0e485")
+		(pin "V_{DCBus}" input
+			(at 186.69 146.05 180)
+			(uuid "3c080557-7a33-47b2-be2e-edf1d7e09e01")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "V_{DCBus}" input
-			(at 186.69 146.05 180)
-			(uuid "3c080557-7a33-47b2-be2e-edf1d7e09e01")
+		(pin "DIS_{HV}" output
+			(at 201.93 160.02 270)
+			(uuid "6c7ac527-0083-43ef-a9b7-9a8612545a77")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,8 +5307,8 @@
 		)
 	)
 	(sheet
-		(at 68.834 170.434)
-		(size 59.436 46.482)
+		(at 68.834 170.18)
+		(size 59.436 46.736)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5393,7 +5323,7 @@
 		)
 		(uuid "ecb3e104-baec-42ee-909e-8fcaed71028a")
 		(property "Sheetname" "Feeder"
-			(at 68.834 169.7224 0)
+			(at 68.834 169.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,6 +5338,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DIS_{HV}" input
+			(at 128.27 175.26 0)
+			(uuid "9a65b4b9-8eb9-442c-9ee4-39f3609bb490")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Neut_{REF}" input
+			(at 102.87 170.18 90)
+			(uuid "903b4a34-d408-4d45-8409-f788eae6f124")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

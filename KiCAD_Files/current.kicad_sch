@@ -1413,7 +1413,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 116.84) (xy 123.19 123.19)
+			(xy 124.46 116.84) (xy 124.46 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1883,7 +1883,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 116.84) (xy 123.19 116.84)
+			(xy 119.38 116.84) (xy 124.46 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3936,7 +3936,7 @@
 	)
 	(symbol
 		(lib_id "Symbols:DGND")
-		(at 123.19 123.19 0)
+		(at 124.46 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3944,7 +3944,7 @@
 		(dnp no)
 		(uuid "f0a04408-fdb4-48e5-b8a1-30afa3e3a4c0")
 		(property "Reference" "#PWR026"
-			(at 123.19 129.54 0)
+			(at 124.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3953,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 123.19 127 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +3961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 123.19 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +3970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 123.19 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +3979,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 123.19 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
