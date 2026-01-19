@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -754,7 +754,6 @@
         "LSW2"
       ],
       "/Power/HV_{BUS}": [
-        "GND_HV",
         "HV"
       ],
       "/Power/LO1": [
@@ -792,11 +791,9 @@
         "GND_HV"
       ],
       "/Power/Rect1": [
-        "GND_HV",
         "HV"
       ],
       "/Power/Rect2": [
-        "GND_HV",
         "HV"
       ],
       "/Power/ThPad_{IND1}": [
@@ -843,6 +840,12 @@
       "Net-(C113-Pad2)": [
         "N"
       ],
+      "Net-(C120-Pad1)": [
+        "L"
+      ],
+      "Net-(C120-Pad2)": [
+        "N"
+      ],
       "Net-(C5-Pad1)": [
         "L"
       ],
@@ -853,11 +856,9 @@
         "N"
       ],
       "Net-(D101-K)": [
-        "GND_HV",
         "SN1"
       ],
       "Net-(D102-K)": [
-        "GND_HV",
         "SN2"
       ],
       "Net-(D5-A)": [
@@ -876,11 +877,9 @@
         "N"
       ],
       "Net-(FB1-Pad2)": [
-        "GND_HV",
         "SN2"
       ],
       "Net-(FB2-Pad2)": [
-        "GND_HV",
         "SN1"
       ],
       "Net-(FL1-Pad4)": [
@@ -902,15 +901,12 @@
         "DGND"
       ],
       "Net-(Q1-OUT+)": [
-        "GND_HV",
         "SN2"
       ],
       "Net-(Q1-OUT-)": [
-        "GND_HV",
         "SN2"
       ],
       "Net-(Q1-VDD)": [
-        "GND_HV",
         "SN2"
       ],
       "Net-(Q10-G)": [
@@ -920,15 +916,12 @@
         "DGND"
       ],
       "Net-(Q2-OUT+)": [
-        "GND_HV",
         "SN1"
       ],
       "Net-(Q2-OUT-)": [
-        "GND_HV",
         "SN1"
       ],
       "Net-(Q2-VDD)": [
-        "GND_HV",
         "SN1"
       ],
       "Net-(Q3-OUT+)": [
@@ -988,11 +981,9 @@
         "N"
       ],
       "Net-(T1-SA)": [
-        "GND_HV",
         "HV"
       ],
       "Net-(T2-SA)": [
-        "GND_HV",
         "HV"
       ],
       "Net-(U3-HB)": [
