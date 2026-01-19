@@ -1132,7 +1132,7 @@
 		)
 		(uuid "1d2fd362-5aff-4c24-b48d-7b0e2d643ca7")
 	)
-	(hierarchical_label "V_{ILow}"
+	(hierarchical_label "V_{ILowsense}"
 		(shape output)
 		(at 121.92 93.98 0)
 		(effects

@@ -1968,7 +1968,22 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 105.41 73.66) (xy 105.41 146.05) (xy 200.66 146.05) (xy 200.66 73.66)
+				(xy 102.87 146.05) (xy 102.87 73.66) (xy 25.4 73.66) (xy 25.4 146.05)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 6316ee0f-f30a-47c4-bd98-0603a8d131ec)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 106.68 73.66) (xy 106.68 146.05) (xy 201.93 146.05) (xy 201.93 73.66)
 			)
 			(stroke
 				(width 0)
@@ -1983,7 +1998,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 115.57 146.05 0)
+		(at 116.84 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1993,7 +2008,7 @@
 		)
 		(uuid "1c87c68b-e857-455c-b7c1-5b47bda796a6")
 		(property "Netclass" "DGND"
-			(at 116.2685 143.51 0)
+			(at 117.5385 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2017,39 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -143.51 97.79 0)
+			(at -142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 92.71 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68d8f0c4-9a26-40ba-9c25-256806bac62d")
+		(property "Netclass" "N"
+			(at 93.4085 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -166.37 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +2687,7 @@
 		(dnp no)
 		(uuid "61ac608e-62b0-4131-8258-4ba337d3ae11")
 		(property "Reference" "U5"
-			(at 92.964 96.012 0)
+			(at 90.678 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2695,7 @@
 			)
 		)
 		(property "Value" "AMC1301DWR"
-			(at 97.79 98.552 0)
+			(at 95.504 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
