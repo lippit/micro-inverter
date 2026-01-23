@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -142,7 +142,7 @@
         "min_via_diameter": 0.45,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -741,6 +741,9 @@
       "/Power/AC Current sense/In+": [
         "N"
       ],
+      "/Power/AC Current sense/Vref": [
+        "DGND"
+      ],
       "/Power/Grid Voltage sense/In+": [
         "L",
         "N"
@@ -874,6 +877,12 @@
         "N"
       ],
       "Net-(D704-A)": [
+        "N"
+      ],
+      "Net-(F1-Pad1)": [
+        "L"
+      ],
+      "Net-(F101-Pad1)": [
         "N"
       ],
       "Net-(FB1-Pad2)": [
@@ -1104,6 +1113,69 @@
       "Net-(U806-REF)": [
         "GND_HV"
       ],
+      "Net-(U901A-PA0)": [
+        "DGND"
+      ],
+      "Net-(U901A-PA1)": [
+        "DGND"
+      ],
+      "Net-(U901A-PA8)": [
+        "DGND"
+      ],
+      "Net-(U901A-PA9)": [
+        "DGND"
+      ],
+      "Net-(U901A-PB12)": [
+        "DGND"
+      ],
+      "Net-(U901A-PB13)": [
+        "DGND"
+      ],
+      "Net-(U901A-PB14)": [
+        "DGND"
+      ],
+      "Net-(U901A-PB15)": [
+        "DGND"
+      ],
+      "Net-(U901A-PB9)": [
+        "DGND"
+      ],
+      "Net-(U901A-PC0)": [
+        "DGND"
+      ],
+      "Net-(U901A-PC1)": [
+        "DGND"
+      ],
+      "Net-(U901A-PC12)": [
+        "DGND"
+      ],
+      "Net-(U901A-PC13)": [
+        "DGND"
+      ],
+      "Net-(U901A-PC2)": [
+        "DGND"
+      ],
+      "Net-(U901A-PC3)": [
+        "DGND"
+      ],
+      "Net-(U901A-PC8)": [
+        "DGND"
+      ],
+      "Net-(U901A-PC9)": [
+        "DGND"
+      ],
+      "unconnected-(Q1-NC-Pad4)": [
+        "HV"
+      ],
+      "unconnected-(Q2-NC-Pad4)": [
+        "HV"
+      ],
+      "unconnected-(Q3-NC-Pad4)": [
+        "SN1"
+      ],
+      "unconnected-(Q4-NC-Pad4)": [
+        "SN2"
+      ],
       "unconnected-(U3-NC-Pad2)": [
         "DGND"
       ],
@@ -1213,6 +1285,12 @@
       ],
       "unconnected-(U901D-RST-Pad59)": [
         "DGND"
+      ],
+      "unconnected-(U903-I{slash}O1-Pad1)": [
+        "DGND"
+      ],
+      "unconnected-(U903-I{slash}O2-Pad3)": [
+        "DGND"
       ]
     },
     "netclass_patterns": [
@@ -1251,7 +1329,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -1269,19 +1347,19 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1297,32 +1375,8 @@
         },
         {
           "group_by": false,
-          "label": "DNP",
-          "name": "DNP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Dielectric",
-          "name": "Dielectric",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Functional Block",
           "name": "Functional Block",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Metal content",
-          "name": "Metal content",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
           "show": false
         },
         {
@@ -1333,74 +1387,32 @@
         },
         {
           "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Library",
-          "name": "Sim.Library",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Name",
-          "name": "Sim.Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Params",
-          "name": "Sim.Params",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Subfunction",
-          "name": "Subfunction",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Technology",
-          "name": "Technology",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "VRating",
-          "name": "VRating",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "manf#",
-          "name": "manf#",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Voltage_Rating",
+          "name": "Voltage_Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rotation Offset",
+          "name": "Rotation Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Position Offset",
+          "name": "Position Offset",
           "show": true
         }
       ],
@@ -1409,7 +1421,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "LCSC"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -851,6 +851,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Filter cutoff ≈ 6.4 kHz"
+		(exclude_from_sim no)
+		(at 69.596 115.062 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "810380fd-f0ac-4102-ac35-31e282de9a7e")
+	)
 	(text "DC input voltage measurement"
 		(exclude_from_sim no)
 		(at 83.566 56.388 0)
@@ -860,6 +870,16 @@
 			)
 		)
 		(uuid "a22ed892-c153-4316-80d8-832a31f5b99e")
+	)
+	(text "Full-scale (for 2 V output): ~80 V input"
+		(exclude_from_sim no)
+		(at 60.96 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4ec5e31-68b7-4e96-a1fc-098e77bb01b2")
 	)
 	(junction
 		(at 64.77 91.44)
@@ -1415,7 +1435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16K"
+		(property "Value" "25.6K"
 			(at 63.2714 102.743 0)
 			(effects
 				(font
@@ -1451,7 +1471,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C46670"
 			(at 64.77 101.6 0)
 			(effects
 				(font
@@ -1530,7 +1550,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17514"
 			(at 64.77 82.55 0)
 			(effects
 				(font
@@ -1608,23 +1628,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" ""
-			(at 97.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "MCP6486UT-E/LT"
-			(at 107.95 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Functional Block" "Measurement"
 			(at 90.17 86.36 0)
 			(effects
@@ -1634,34 +1637,16 @@
 				(hide yes)
 			)
 		)
-		(property "Metal content" ""
-			(at 97.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Subfunction" "IILow Measure"
-			(at 107.95 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 97.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C5224800"
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "90"
 			(at 97.79 93.98 0)
 			(effects
 				(font
@@ -1749,6 +1734,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C46653"
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93c72618-1d7e-4c1d-80b6-1ffb58ee4256")
 		)
@@ -1818,61 +1812,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1206C104K5RAC7867"
-			(at 113.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 113.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 111.76 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "1206"
-			(at 115.57 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 113.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 113.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5449000"
+		(property "LCSC" "C49678"
 			(at 113.03 78.74 0)
 			(effects
 				(font
