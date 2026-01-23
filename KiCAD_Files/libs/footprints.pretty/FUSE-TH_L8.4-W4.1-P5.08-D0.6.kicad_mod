@@ -49,30 +49,6 @@
 			)
 		)
 	)
-	(property "JLC_3DModel_Q" "1fba2a3208e8449fbe2d26c19dec1533"
-		(at 0 0 0)
-		(layer "Cmts.User")
-		(hide yes)
-		(uuid "6fad9aba-df1b-4e9e-acec-f7572d9d6d73")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "JLC_3D_Size" "8.4 4.1"
-		(at 0 0 0)
-		(layer "Cmts.User")
-		(hide yes)
-		(uuid "ff7d7c89-bfdc-4bc2-b4e2-88cb069bb896")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_line
 		(start -4.2 -2.05)
 		(end -4.2 2.05)
@@ -258,6 +234,17 @@
 		(fill yes)
 		(layer "Dwgs.User")
 		(uuid "33e5c50b-baf5-4d22-8b9b-01fd14f40bb6")
+	)
+	(fp_rect
+		(start -4.5 -2.25)
+		(end 4.5 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "703ee0dc-7b8a-43e9-94f8-d98ce5d7a4f2")
 	)
 	(fp_poly
 		(pts

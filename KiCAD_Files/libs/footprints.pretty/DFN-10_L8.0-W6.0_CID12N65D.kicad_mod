@@ -131,6 +131,17 @@
 		(layer "Dwgs.User")
 		(uuid "401dd941-d907-417f-8ebd-0d67262dd890")
 	)
+	(fp_rect
+		(start -3.2 -4.2)
+		(end 3.2 4.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "12172f26-bbba-4b8f-9a27-c5091e260cff")
+	)
 	(fp_poly
 		(pts
 			(xy -2.6 -4) (xy -2.2 -4) (xy -2.2 -3.6) (xy -2.6 -3.6)

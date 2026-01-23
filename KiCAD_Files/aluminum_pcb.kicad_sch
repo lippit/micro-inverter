@@ -998,224 +998,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Symbols:+12V_PGND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "#PWR"
-				(at 1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V_PGND"
-				(at -0.127 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.175 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.175 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V_PGND\" , power supply"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_PGND_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_PGND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+12V_PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Symbols:DGND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "DGND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"DGND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DGND_0_0"
-				(text "D"
-					(at 0 -1.778 0)
-					(effects
-						(font
-							(size 0.63 0.63)
-						)
-					)
-				)
-			)
-			(symbol "DGND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DGND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Symbols:Logo"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1788,6 +1570,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:Earth_Protective"
 			(power)
 			(pin_numbers
@@ -1915,6 +1822,219 @@
 				)
 			)
 			(symbol "Earth_Protective_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2787,7 +2907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:BTC-533-ZN01"
+		(property "Footprint" "Footprints:Heatsink_BTC-533-ZN01"
 			(at 255.5748 181.61 0)
 			(effects
 				(font
@@ -2929,7 +3049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:SMD_BD5.6-D4.1"
+		(property "Footprint" "Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
 			(at 172.72 238.76 0)
 			(effects
 				(font
@@ -3005,7 +3125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:SMD_BD5.6-D4.1"
+		(property "Footprint" "Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
 			(at 172.72 219.71 0)
 			(effects
 				(font
@@ -3081,7 +3201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:BTC-533-ZN01"
+		(property "Footprint" "Footprints:Heatsink_BTC-533-ZN01"
 			(at 265.7348 181.61 0)
 			(effects
 				(font
@@ -3221,7 +3341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:SMD_BD5.6-D4.1"
+		(property "Footprint" "Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
 			(at 198.12 238.76 0)
 			(effects
 				(font
@@ -3336,12 +3456,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+12V_PGND")
+		(lib_id "power:+12V")
 		(at 58.42 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "28d52ce7-2900-496e-aad8-09e1115300be")
 		(property "Reference" "#PWR0129"
@@ -3362,7 +3482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 61.595 232.41 0)
+			(at 58.42 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 61.595 232.41 0)
+			(at 58.42 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 58.42 234.95 0)
 			(effects
 				(font
@@ -3492,7 +3612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:SMD_BD5.6-D4.1"
+		(property "Footprint" "Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
 			(at 172.72 259.08 0)
 			(effects
 				(font
@@ -3632,7 +3752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:SMD_BD5.6-D4.1"
+		(property "Footprint" "Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
 			(at 198.12 219.71 0)
 			(effects
 				(font
@@ -3754,12 +3874,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+12V_PGND")
+		(lib_id "power:+12V")
 		(at 73.66 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "64dc81b8-31b2-4bc6-95a5-80293018ed1f")
 		(property "Reference" "#PWR0134"
@@ -3780,7 +3900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.835 232.41 0)
+			(at 73.66 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.835 232.41 0)
+			(at 73.66 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,7 +3917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 73.66 234.95 0)
 			(effects
 				(font
@@ -4049,7 +4169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:BTC-533-ZN01"
+		(property "Footprint" "Footprints:Heatsink_BTC-533-ZN01"
 			(at 235.2548 181.61 0)
 			(effects
 				(font
@@ -4098,7 +4218,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 53.34 245.11 0)
 		(unit 1)
@@ -4164,7 +4283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 58.42 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4207,7 +4326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 58.42 245.11 0)
 			(effects
 				(font
@@ -4255,7 +4374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:BTC-533-ZN01"
+		(property "Footprint" "Footprints:Heatsink_BTC-533-ZN01"
 			(at 235.2548 198.12 0)
 			(effects
 				(font
@@ -4304,12 +4423,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+12V_PGND")
+		(lib_id "power:+12V")
 		(at 78.74 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "a667e401-999b-462c-9a86-78912a4f039e")
 		(property "Reference" "#PWR0135"
@@ -4330,7 +4449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.915 232.41 0)
+			(at 78.74 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +4458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.915 232.41 0)
+			(at 78.74 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +4466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 78.74 234.95 0)
 			(effects
 				(font
@@ -4572,12 +4691,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+12V_PGND")
+		(lib_id "power:+12V")
 		(at 53.34 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "e49a485d-bb4e-4d0f-bcc7-22b9d19b671c")
 		(property "Reference" "#PWR0130"
@@ -4598,7 +4717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 56.515 232.41 0)
+			(at 53.34 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 56.515 232.41 0)
+			(at 53.34 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 53.34 234.95 0)
 			(effects
 				(font
@@ -4730,7 +4849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:SMD_BD5.6-D4.1"
+		(property "Footprint" "Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
 			(at 198.12 259.08 0)
 			(effects
 				(font

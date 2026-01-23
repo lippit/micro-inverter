@@ -602,21 +602,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -911,243 +909,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "R_Small_14"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small_14"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_14_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_14_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Symbols:+12V_PGND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "#PWR"
-				(at 1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V_PGND"
-				(at -0.127 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.175 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.175 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V_PGND\" , power supply"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_PGND_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_PGND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+12V_PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Symbols:AMC1100"
 			(pin_names
 				(offset 1.016)
@@ -1383,128 +1144,19 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Symbols:DGND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "DGND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"DGND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DGND_0_0"
-				(text "D"
-					(at 0 -1.778 0)
-					(effects
-						(font
-							(size 0.63 0.63)
-						)
-					)
-				)
-			)
-			(symbol "DGND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DGND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Symbols:MCP6486UT-E/LT "
+		(symbol "Symbols:MCP6486UT-E/LT"
 			(pin_names
 				(offset 0.127)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U205"
-				(at 3.81 7.62 0)
+			(property "Reference" "U402"
+				(at 5.08 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "MCP6486UT-E/LT"
@@ -1517,7 +1169,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 				(at 5.08 -6.35 0)
 				(effects
 					(font
@@ -1526,7 +1178,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP6486-Family-Data-Sheet-DS20006679.pdf"
+			(property "Datasheet" "${KIPRJMOD}\\datasheets\\MCP6486.pdf"
 				(at 1.27 -6.35 0)
 				(effects
 					(font
@@ -1535,30 +1187,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "DNP" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manf#" "MCP6486UT-E/LT "
-				(at 12.7 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "Functional Block" "Measurement"
@@ -1570,7 +1205,7 @@
 					(hide yes)
 				)
 			)
-			(property "Metal content" ""
+			(property "LCSC" "C5224800"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1579,8 +1214,8 @@
 					(hide yes)
 				)
 			)
-			(property "Subfunction" "IILow Measure"
-				(at 10.16 -3.81 0)
+			(property "Rotation Offset" "90"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1606,7 +1241,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP6486UT-E/LT _0_1"
+			(symbol "MCP6486UT-E/LT_0_1"
 				(polyline
 					(pts
 						(xy -2.54 5.08) (xy -2.54 -5.08) (xy 7.62 0) (xy -2.54 5.08)
@@ -1620,7 +1255,7 @@
 					)
 				)
 			)
-			(symbol "MCP6486UT-E/LT _1_1"
+			(symbol "MCP6486UT-E/LT_1_1"
 				(pin input line
 					(at -5.08 2.54 0)
 					(length 2.54)
@@ -1704,6 +1339,243 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3177,6 +3049,21 @@
 			(uuid 8d00d40b-0808-4a2a-a844-1d6bfa5b6dc2)
 		)
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 25.4 171.45) (xy 25.4 242.57) (xy 102.87 242.57) (xy 102.87 171.45)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid b6298680-a0b9-414a-a490-f8a8c129a28b)
+		)
+	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
@@ -3200,6 +3087,38 @@
 		)
 		(property "Component Class" ""
 			(at -142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 35.56 242.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30770fc5-23fa-4847-8081-b3cc62135d32")
+		(property "Netclass" "DGND"
+			(at 36.2585 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -223.52 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,7 +3161,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_14")
 		(lib_id "Device:R_Small")
 		(at 133.35 107.95 90)
 		(unit 1)
@@ -3278,7 +3196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}\\datasheet\\PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "~"
 			(at 133.35 107.95 0)
 			(effects
 				(font
@@ -3287,7 +3205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 133.35 107.95 0)
 			(effects
 				(font
@@ -3399,7 +3317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 69.85 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3430,7 +3348,6 @@
 			(at 69.85 215.9 0)
 			(effects
 				(font
-					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -3440,17 +3357,15 @@
 			(at 69.85 215.9 0)
 			(effects
 				(font
-					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 69.85 215.9 0)
 			(effects
 				(font
-					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -3469,7 +3384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 170.18 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3512,7 +3427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 170.18 119.38 0)
 			(effects
 				(font
@@ -3534,7 +3449,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 181.61 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3577,7 +3492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 181.61 99.06 0)
 			(effects
 				(font
@@ -3746,7 +3661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 73.66 106.68 0)
 			(effects
 				(font
@@ -3902,12 +3817,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+12V_PGND")
+		(lib_id "power:+12V")
 		(at 90.17 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47e471be-6975-47e5-827e-8ea44df6b872")
@@ -3929,7 +3844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.345 81.28 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +3853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.345 81.28 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3946,7 +3861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 90.17 83.82 0)
 			(effects
 				(font
@@ -3968,7 +3883,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 124.46 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4011,7 +3926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 124.46 96.52 0)
 			(effects
 				(font
@@ -4111,12 +4026,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+12V_PGND")
+		(lib_id "power:+12V")
 		(at 170.18 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ae9b10d-adda-46ce-b797-30da0d034a0d")
@@ -4138,7 +4053,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.355 82.55 0)
+			(at 170.18 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.355 82.55 0)
+			(at 170.18 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +4070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 170.18 85.09 0)
 			(effects
 				(font
@@ -4177,7 +4092,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_14")
 		(lib_id "Device:R_Small")
 		(at 133.35 113.03 90)
 		(unit 1)
@@ -4213,7 +4127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}\\datasheet\\PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "~"
 			(at 133.35 113.03 0)
 			(effects
 				(font
@@ -4222,7 +4136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 133.35 113.03 0)
 			(effects
 				(font
@@ -4438,7 +4352,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 41.91 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4470,7 +4384,6 @@
 			(at 41.91 222.25 0)
 			(effects
 				(font
-					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4480,17 +4393,15 @@
 			(at 41.91 222.25 0)
 			(effects
 				(font
-					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 41.91 222.25 0)
 			(effects
 				(font
-					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4707,7 +4618,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 62.23 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4738,7 +4649,6 @@
 			(at 62.23 196.85 0)
 			(effects
 				(font
-					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4748,17 +4658,15 @@
 			(at 62.23 196.85 0)
 			(effects
 				(font
-					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 62.23 196.85 0)
 			(effects
 				(font
-					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4777,12 +4685,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+12V_PGND")
+		(lib_id "power:+12V")
 		(at 124.46 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93821512-2143-4435-b78a-02e877d31da8")
@@ -4804,7 +4712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.635 81.28 0)
+			(at 124.46 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127.635 81.28 0)
+			(at 124.46 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 124.46 83.82 0)
 			(effects
 				(font
@@ -4887,7 +4795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -4949,7 +4857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 74.93 205.74 0)
 			(effects
 				(font
@@ -5351,12 +5259,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+12V_PGND")
+		(lib_id "power:+12V")
 		(at 62.23 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfa26772-cd13-4cda-946c-762e8f362fbe")
@@ -5378,7 +5286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 65.405 181.61 0)
+			(at 62.23 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +5295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 65.405 181.61 0)
+			(at 62.23 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,7 +5303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 62.23 184.15 0)
 			(effects
 				(font
@@ -5453,7 +5361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}\\datasheet\\PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "~"
 			(at 143.51 125.73 0)
 			(effects
 				(font
@@ -5462,7 +5370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 143.51 125.73 0)
 			(effects
 				(font
@@ -5496,7 +5404,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:MCP6486UT-E/LT ")
+		(lib_id "Symbols:MCP6486UT-E/LT")
 		(at 170.18 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5522,7 +5430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 175.26 116.84 0)
 			(effects
 				(font
@@ -5765,7 +5673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 64.77 110.49 0)
 			(effects
 				(font
@@ -5834,7 +5742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}\\datasheet\\PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "~"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -5843,7 +5751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -5877,7 +5785,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 124.46 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5920,7 +5828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 124.46 124.46 0)
 			(effects
 				(font
@@ -6020,12 +5928,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+12V_PGND")
+		(lib_id "power:+12V")
 		(at 41.91 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd1a7b0a-325d-4a68-bfe8-90c764384a14")
@@ -6047,7 +5955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.085 189.23 0)
+			(at 41.91 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +5964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.085 189.23 0)
+			(at 41.91 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +5972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 41.91 191.77 0)
 			(effects
 				(font

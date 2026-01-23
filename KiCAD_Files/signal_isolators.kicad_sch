@@ -370,27 +370,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:ISO7720DWV"
+		(symbol "Symbols:ISO7720FDR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 10.795 0)
+			(property "Reference" "U801"
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "ISO7720DWV"
-				(at 0 8.89 0)
+			(property "Value" "ISO7720FDR"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -400,7 +400,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/iso7720.pdf"
+			(property "Datasheet" "./datasheets/iso7720.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -418,6 +418,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC" "C2878308"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "2Ch Dual Digital Isolator 100Mbps"
 				(at 0 0 0)
 				(effects
@@ -427,7 +436,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*SOIC*7.5x5.85mm*P1.27mm*"
+			(property "ki_fp_filters" "*SOIC*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -436,7 +445,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ISO7720DWV_0_1"
+			(symbol "ISO7720FDR_0_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -5.08)
@@ -593,7 +602,7 @@
 					)
 				)
 			)
-			(symbol "ISO7720DWV_1_1"
+			(symbol "ISO7720FDR_1_1"
 				(pin power_in line
 					(at -10.16 5.08 0)
 					(length 2.54)
@@ -731,224 +740,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Symbols:+12V_PGND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "#PWR"
-				(at 1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V_PGND"
-				(at -0.127 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.175 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.175 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V_PGND\" , power supply"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_PGND_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_PGND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+12V_PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Symbols:DGND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "DGND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"DGND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DGND_0_0"
-				(text "D"
-					(at 0 -1.778 0)
-					(effects
-						(font
-							(size 0.63 0.63)
-						)
-					)
-				)
-			)
-			(symbol "DGND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DGND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1274,6 +1065,118 @@
 			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
 					(length 0)
 					(name "~"
 						(effects
@@ -3123,7 +3026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 141.478 52.07 90)
 			(effects
 				(font
@@ -3175,7 +3078,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 57.15 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3218,7 +3121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 57.15 111.76 0)
 			(effects
 				(font
@@ -3435,12 +3338,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+12V_PGND")
+		(lib_id "power:+12V")
 		(at 57.15 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3199b8e4-87f8-4b0d-aa14-ab75fc152df1")
@@ -3462,7 +3365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.325 85.09 0)
+			(at 57.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +3374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.325 85.09 0)
+			(at 57.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 57.15 87.63 0)
 			(effects
 				(font
@@ -3528,7 +3431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 141.478 143.51 90)
 			(effects
 				(font
@@ -3659,7 +3562,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:ISO7720DWV")
+		(lib_id "Symbols:ISO7720FDR")
 		(at 72.39 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3755,7 +3658,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 57.15 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3798,7 +3701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 57.15 49.53 0)
 			(effects
 				(font
@@ -3912,7 +3815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 141.478 110.49 90)
 			(effects
 				(font
@@ -4075,7 +3978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 129.54 93.472 90)
 			(effects
 				(font
@@ -4382,7 +4285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 141.478 153.67 90)
 			(effects
 				(font
@@ -4499,7 +4402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 57.15 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4542,7 +4445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 57.15 63.5 0)
 			(effects
 				(font
@@ -4564,12 +4467,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+12V_PGND")
+		(lib_id "power:+12V")
 		(at 57.15 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77108765-d435-49ba-8754-4bdfc79ae733")
@@ -4591,7 +4494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.325 130.81 0)
+			(at 57.15 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,7 +4503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.325 130.81 0)
+			(at 57.15 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 57.15 133.35 0)
 			(effects
 				(font
@@ -4892,7 +4795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 129.54 136.652 90)
 			(effects
 				(font
@@ -4944,7 +4847,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 57.15 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4987,7 +4890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 57.15 143.51 0)
 			(effects
 				(font
@@ -5251,7 +5154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:ISO7720DWV")
+		(lib_id "Symbols:ISO7720FDR")
 		(at 72.39 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5623,7 +5526,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:ISO7720DWV")
+		(lib_id "Symbols:ISO7720FDR")
 		(at 72.39 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5784,7 +5687,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 57.15 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5827,7 +5730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 57.15 97.79 0)
 			(effects
 				(font
@@ -5876,7 +5779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 129.54 45.212 90)
 			(effects
 				(font
@@ -5928,7 +5831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 57.15 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5971,7 +5874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 57.15 162.56 0)
 			(effects
 				(font
@@ -6060,12 +5963,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+12V_PGND")
+		(lib_id "power:+12V")
 		(at 57.15 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7a0170c-fdf9-4161-84b4-a456f4f3378b")
@@ -6087,7 +5990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.325 36.83 0)
+			(at 57.15 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,7 +5999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.325 36.83 0)
+			(at 57.15 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +6007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 57.15 39.37 0)
 			(effects
 				(font
@@ -6153,7 +6056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 141.478 62.23 90)
 			(effects
 				(font
@@ -6311,7 +6214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 141.478 100.33 90)
 			(effects
 				(font

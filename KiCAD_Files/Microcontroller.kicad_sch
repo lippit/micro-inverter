@@ -281,27 +281,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OwnTech_SPIN_1"
+		(symbol "Symbols:OwnTech_SPIN2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
+			(property "Reference" "U901"
+				(at 12.7 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "OwnTech_SPIN"
-				(at 3.81 -6.35 0)
+			(property "Value" "OwnTech_SPIN2"
+				(at 12.7 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Footprints:OwnTech_SPINTHT"
+			(property "Footprint" "Footprints:OwnTech_SPINTHT_1"
 				(at -1.27 0 0)
 				(effects
 					(font
@@ -319,7 +319,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Owntech SPIN microcontroller module USB"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -345,9 +354,96 @@
 					(hide yes)
 				)
 			)
-			(symbol "OwnTech_SPIN_1_0_1"
+			(symbol "OwnTech_SPIN2_1_1"
+				(rectangle
+					(start 0 0)
+					(end 25.4 -58.42)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 6.35 -11.43)
+					(end 8.89 -24.13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.35 -34.29)
+					(end 8.89 -53.34)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -30.48) (xy 12.7 -25.4) (xy 17.78 -30.48) (xy 12.7 -35.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 8.89 2.54)
+					(end 15.24 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -35.56) (xy 7.62 -30.48)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 18.415 -52.07)
+					(end 19.685 -53.34)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "USB"
+					(at 11.43 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(text "59, RESET"
-					(at 19.05 -48.26 900)
+					(at 19.05 -48.768 900)
 					(effects
 						(font
 							(size 0.8 0.8)
@@ -355,102 +451,13 @@
 					)
 				)
 				(text "/BOOT0"
-					(at 21.59 -55.88 900)
+					(at 20.574 -55.88 900)
 					(effects
 						(font
 							(size 0.8 0.8)
 						)
 					)
 				)
-			)
-			(symbol "OwnTech_SPIN_1_1_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -58.42)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 6.35 -11.43)
-					(end 8.89 -24.13)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.35 -34.29)
-					(end 8.89 -53.34)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -30.48) (xy 12.7 -25.4) (xy 17.78 -30.48) (xy 12.7 -35.56)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 8.89 2.54)
-					(end 15.24 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -35.56) (xy 7.62 -30.48)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 18.415 -52.07)
-					(end 19.685 -53.34)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "USB"
-					(at 11.43 1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(pin passive line
 					(at -3.81 -3.81 0)
 					(length 3.81)
@@ -1280,7 +1287,7 @@
 					)
 				)
 			)
-			(symbol "OwnTech_SPIN_1_2_1"
+			(symbol "OwnTech_SPIN2_2_1"
 				(rectangle
 					(start 0 0)
 					(end 7.62 -15.24)
@@ -1383,7 +1390,7 @@
 					)
 				)
 			)
-			(symbol "OwnTech_SPIN_1_3_1"
+			(symbol "OwnTech_SPIN2_3_1"
 				(rectangle
 					(start 0 0)
 					(end 7.62 -20.32)
@@ -1522,7 +1529,7 @@
 					)
 				)
 			)
-			(symbol "OwnTech_SPIN_1_4_1"
+			(symbol "OwnTech_SPIN2_4_1"
 				(rectangle
 					(start 0 0)
 					(end 5.08 -5.08)
@@ -1555,2542 +1562,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OwnTech_SPIN_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U401"
-				(at 12.7 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "OwnTech_SPIN"
-				(at 12.7 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Footprints:OwnTech_SPINTHT"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Owntech SPIN microcontroller module USB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "microcontroller power SPIN G474 stm32"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OwnTech_SPIN_2_1_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -58.42)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 6.35 -11.43)
-					(end 8.89 -24.13)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.35 -34.29)
-					(end 8.89 -53.34)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -30.48) (xy 12.7 -25.4) (xy 17.78 -30.48) (xy 12.7 -35.56)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 8.89 2.54)
-					(end 15.24 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -35.56) (xy 7.62 -30.48)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 18.415 -52.07)
-					(end 19.685 -53.34)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "USB"
-					(at 11.43 1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -3.81 0)
-					(length 3.81)
-					(name "PB11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -6.35 0)
-					(length 3.81)
-					(name "PB12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -8.89 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -11.43 0)
-					(length 3.81)
-					(name "PB13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -13.97 0)
-					(length 3.81)
-					(name "PB14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -16.51 0)
-					(length 3.81)
-					(name "PB15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -19.05 0)
-					(length 3.81)
-					(name "PC6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -21.59 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -24.13 0)
-					(length 3.81)
-					(name "PC7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -26.67 0)
-					(length 3.81)
-					(name "PC8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -29.21 0)
-					(length 3.81)
-					(name "PC9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -31.75 0)
-					(length 3.81)
-					(name "PA8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -34.29 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -36.83 0)
-					(length 3.81)
-					(name "PA9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -39.37 0)
-					(length 3.81)
-					(name "PA10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -41.91 0)
-					(length 3.81)
-					(name "PC10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -44.45 0)
-					(length 3.81)
-					(name "PC11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -46.99 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -49.53 0)
-					(length 3.81)
-					(name "PC12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -52.07 0)
-					(length 3.81)
-					(name "PB4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -62.23 90)
-					(length 3.81)
-					(name "PB5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -62.23 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -62.23 90)
-					(length 3.81)
-					(name "PB6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -62.23 90)
-					(length 3.81)
-					(name "PB7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -62.23 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -62.23 90)
-					(length 3.81)
-					(name "PB8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "58"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 29.21 -3.81 180)
-					(length 3.81)
-					(name "+VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 29.21 -6.35 180)
-					(length 3.81)
-					(name "+VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -8.89 180)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -11.43 180)
-					(length 3.81)
-					(name "PB1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 29.21 -13.97 180)
-					(length 3.81)
-					(name "+3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -16.51 180)
-					(length 3.81)
-					(name "PC4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -19.05 180)
-					(length 3.81)
-					(name "PA6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -21.59 180)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -24.13 180)
-					(length 3.81)
-					(name "PA5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -26.67 180)
-					(length 3.81)
-					(name "PB0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -29.21 180)
-					(length 3.81)
-					(name "PA1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -31.75 180)
-					(length 3.81)
-					(name "PA0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -34.29 180)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -36.83 180)
-					(length 3.81)
-					(name "PC3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -39.37 180)
-					(length 3.81)
-					(name "PC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -41.91 180)
-					(length 3.81)
-					(name "PC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -44.45 180)
-					(length 3.81)
-					(name "PC0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -46.99 180)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -49.53 180)
-					(length 3.81)
-					(name "PC13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -52.07 180)
-					(length 3.81)
-					(name "PB9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OwnTech_SPIN_2_2_1"
-				(rectangle
-					(start 0 0)
-					(end 7.62 -15.24)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 3.81)
-					(name "PB10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -5.08 0)
-					(length 3.81)
-					(name "PB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -7.62 0)
-					(length 3.81)
-					(name "PC5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -10.16 0)
-					(length 3.81)
-					(name "PA7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -12.7 0)
-					(length 3.81)
-					(name "PA4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OwnTech_SPIN_2_3_1"
-				(rectangle
-					(start 0 0)
-					(end 7.62 -20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 3.81)
-					(name "PA13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -5.08 0)
-					(length 3.81)
-					(name "PA14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -7.62 0)
-					(length 3.81)
-					(name "PA15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -10.16 0)
-					(length 3.81)
-					(name "PD2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -12.7 0)
-					(length 3.81)
-					(name "PB3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -15.24 0)
-					(length 3.81)
-					(name "PA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -17.78 0)
-					(length 3.81)
-					(name "PA3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OwnTech_SPIN_2_4_1"
-				(rectangle
-					(start 0 0)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 3.81)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OwnTech_SPIN_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U401"
-				(at 12.7 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "OwnTech_SPIN"
-				(at 12.7 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Footprints:OwnTech_SPINTHT"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Owntech SPIN microcontroller module USB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "microcontroller power SPIN G474 stm32"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OwnTech_SPIN_3_1_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -58.42)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 6.35 -11.43)
-					(end 8.89 -24.13)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.35 -34.29)
-					(end 8.89 -53.34)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -30.48) (xy 12.7 -25.4) (xy 17.78 -30.48) (xy 12.7 -35.56)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 8.89 2.54)
-					(end 15.24 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -35.56) (xy 7.62 -30.48)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 18.415 -52.07)
-					(end 19.685 -53.34)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "USB"
-					(at 11.43 1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -3.81 0)
-					(length 3.81)
-					(name "PB11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -6.35 0)
-					(length 3.81)
-					(name "PB12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -8.89 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -11.43 0)
-					(length 3.81)
-					(name "PB13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -13.97 0)
-					(length 3.81)
-					(name "PB14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -16.51 0)
-					(length 3.81)
-					(name "PB15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -19.05 0)
-					(length 3.81)
-					(name "PC6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -21.59 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -24.13 0)
-					(length 3.81)
-					(name "PC7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -26.67 0)
-					(length 3.81)
-					(name "PC8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -29.21 0)
-					(length 3.81)
-					(name "PC9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -31.75 0)
-					(length 3.81)
-					(name "PA8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -34.29 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -36.83 0)
-					(length 3.81)
-					(name "PA9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -39.37 0)
-					(length 3.81)
-					(name "PA10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -41.91 0)
-					(length 3.81)
-					(name "PC10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -44.45 0)
-					(length 3.81)
-					(name "PC11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -46.99 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -49.53 0)
-					(length 3.81)
-					(name "PC12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -52.07 0)
-					(length 3.81)
-					(name "PB4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -62.23 90)
-					(length 3.81)
-					(name "PB5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -62.23 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -62.23 90)
-					(length 3.81)
-					(name "PB6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -62.23 90)
-					(length 3.81)
-					(name "PB7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -62.23 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -62.23 90)
-					(length 3.81)
-					(name "PB8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "58"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 29.21 -3.81 180)
-					(length 3.81)
-					(name "+VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 29.21 -6.35 180)
-					(length 3.81)
-					(name "+VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -8.89 180)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -11.43 180)
-					(length 3.81)
-					(name "PB1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 29.21 -13.97 180)
-					(length 3.81)
-					(name "+3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -16.51 180)
-					(length 3.81)
-					(name "PC4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -19.05 180)
-					(length 3.81)
-					(name "PA6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -21.59 180)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -24.13 180)
-					(length 3.81)
-					(name "PA5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -26.67 180)
-					(length 3.81)
-					(name "PB0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -29.21 180)
-					(length 3.81)
-					(name "PA1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -31.75 180)
-					(length 3.81)
-					(name "PA0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -34.29 180)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -36.83 180)
-					(length 3.81)
-					(name "PC3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -39.37 180)
-					(length 3.81)
-					(name "PC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -41.91 180)
-					(length 3.81)
-					(name "PC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -44.45 180)
-					(length 3.81)
-					(name "PC0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -46.99 180)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -49.53 180)
-					(length 3.81)
-					(name "PC13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -52.07 180)
-					(length 3.81)
-					(name "PB9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OwnTech_SPIN_3_2_1"
-				(rectangle
-					(start 0 0)
-					(end 7.62 -15.24)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 3.81)
-					(name "PB10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -5.08 0)
-					(length 3.81)
-					(name "PB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -7.62 0)
-					(length 3.81)
-					(name "PC5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -10.16 0)
-					(length 3.81)
-					(name "PA7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -12.7 0)
-					(length 3.81)
-					(name "PA4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OwnTech_SPIN_3_3_1"
-				(rectangle
-					(start 0 0)
-					(end 7.62 -20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 3.81)
-					(name "PA13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -5.08 0)
-					(length 3.81)
-					(name "PA14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -7.62 0)
-					(length 3.81)
-					(name "PA15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -10.16 0)
-					(length 3.81)
-					(name "PD2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -12.7 0)
-					(length 3.81)
-					(name "PB3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -15.24 0)
-					(length 3.81)
-					(name "PA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -17.78 0)
-					(length 3.81)
-					(name "PA3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OwnTech_SPIN_3_4_1"
-				(rectangle
-					(start 0 0)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 3.81)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Power_Protection:WE-TVS-824015043"
+		(symbol "Symbols:TVS-4-ways"
 			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 12.7 0)
+			(property "Reference" "U902"
+				(at 6.35 0.0001 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "WE-TVS-824015043"
-				(at 0 10.16 0)
+			(property "Value" "TVS-4-ways"
+				(at 6.35 -2.5399 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 				(at 1.27 -8.89 0)
 				(effects
 					(font
@@ -4117,6 +1615,24 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC" "C1869321"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rotation Offset" "90"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "ESD Protection TVS High-speed USB"
 				(at 0 0 0)
 				(effects
@@ -4126,7 +1642,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4135,7 +1651,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "WE-TVS-824015043_0_0"
+			(symbol "TVS-4-ways_0_0"
 				(circle
 					(center -3.556 2.54)
 					(radius 0.0001)
@@ -4269,7 +1785,7 @@
 					)
 				)
 			)
-			(symbol "WE-TVS-824015043_0_1"
+			(symbol "TVS-4-ways_0_1"
 				(polyline
 					(pts
 						(xy -5.08 2.54) (xy -3.556 2.54)
@@ -4571,7 +2087,7 @@
 					)
 				)
 			)
-			(symbol "WE-TVS-824015043_1_1"
+			(symbol "TVS-4-ways_1_1"
 				(rectangle
 					(start -5.08 5.334)
 					(end 5.08 -7.874)
@@ -4742,230 +2258,264 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Symbols:+12V_PGND"
+		(symbol "power:+3.3V"
 			(power)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "#PWR"
-				(at 1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
+			(pin_numbers
+				(hide yes)
 			)
-			(property "Value" "+12V_PGND"
-				(at -0.127 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.175 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.175 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V_PGND\" , power supply"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_PGND_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_PGND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+12V_PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Symbols:+3.3V_DGND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "#PWR"
-				(at 1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V_DGND"
-				(at -0.127 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.175 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.175 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V_DGND\" , power supply"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_DGND_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_DGND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3.3V_DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Symbols:DGND"
-			(power)
 			(pin_names
 				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4979,8 +2529,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "DGND"
-				(at 0 -3.81 0)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5005,7 +2555,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"DGND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5014,7 +2564,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5023,20 +2573,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "DGND_0_0"
-				(text "D"
-					(at 0 -1.778 0)
-					(effects
-						(font
-							(size 0.63 0.63)
-						)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
-			)
-			(symbol "DGND_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy 0 0) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -5047,12 +2598,11 @@
 					)
 				)
 			)
-			(symbol "DGND_1_1"
+			(symbol "GNDD_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "DGND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5107,7 +2657,7 @@
 	)
 	(text "has to be PWM pin to be able to reduce power consumption"
 		(exclude_from_sim no)
-		(at 103.378 153.416 0)
+		(at 165.862 79.248 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5281,12 +2831,16 @@
 		(uuid "731c9443-0162-4ece-b3b3-5eebb7bfaa62")
 	)
 	(no_connect
-		(at 83.82 96.52)
+		(at 83.82 93.98)
 		(uuid "77fe1f04-b6a6-4871-8bf9-710189183958")
 	)
 	(no_connect
 		(at 66.04 35.56)
 		(uuid "7c6d7c22-4e3e-4b75-99d6-d561b6009f38")
+	)
+	(no_connect
+		(at 81.28 93.98)
+		(uuid "7f7eac4b-2b39-4888-acd5-494791f75025")
 	)
 	(no_connect
 		(at 52.07 100.33)
@@ -5319,6 +2873,10 @@
 	(no_connect
 		(at 52.07 95.25)
 		(uuid "ca75a023-cca6-47b8-bbf5-d3f02e333438")
+	)
+	(no_connect
+		(at 76.2 93.98)
+		(uuid "e9f42038-6ef2-4646-aede-1491dfb70d39")
 	)
 	(no_connect
 		(at 66.04 55.88)
@@ -5624,16 +3182,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 93.98) (xy 83.82 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b5d4eb1-88a9-4afd-ae30-818a35f96e0e")
-	)
-	(wire
-		(pts
 			(xy 88.9 93.98) (xy 88.9 104.14)
 		)
 		(stroke
@@ -5644,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 60.96) (xy 54.5743 60.96)
+			(xy 48.26 60.96) (xy 54.61 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5854,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.2299 43.18) (xy 66.04 43.18)
+			(xy 62.23 43.18) (xy 66.04 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5954,7 +3502,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.1943 60.96) (xy 66.04 60.96)
+			(xy 62.23 60.96) (xy 66.04 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6034,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 43.18) (xy 54.6099 43.18)
+			(xy 48.26 43.18) (xy 54.61 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6895,17 +4443,6 @@
 		)
 		(uuid "0aa6ee94-3fa0-4e5e-814c-f255be8d824e")
 	)
-	(hierarchical_label "I_{ILow1}"
-		(shape input)
-		(at 68.58 189.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0c53a912-e451-4401-a8eb-c3d484305071")
-	)
 	(hierarchical_label "Relay"
 		(shape output)
 		(at 175.26 81.28 0)
@@ -6916,50 +4453,6 @@
 			(justify left)
 		)
 		(uuid "193c8a14-3a93-4248-a750-9e29661d5af0")
-	)
-	(hierarchical_label "PWM_{ILow2}"
-		(shape output)
-		(at 80.01 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c9f971a-f36f-4a7c-b6cd-6b67897703f4")
-	)
-	(hierarchical_label "I_{ILow2}"
-		(shape input)
-		(at 68.58 186.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ffafe71-da59-4df2-95aa-c88566798b48")
-	)
-	(hierarchical_label "V_{AC}"
-		(shape input)
-		(at 77.47 165.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "41f517be-4af4-499f-a2a3-ecff4954e8de")
-	)
-	(hierarchical_label "PWM_{IHigh2}"
-		(shape output)
-		(at 80.01 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "46ed15e1-8059-43e8-bf75-29c14ad317d6")
 	)
 	(hierarchical_label "I_{ILow2}"
 		(shape input)
@@ -6983,39 +4476,6 @@
 		)
 		(uuid "490c9a4f-7ac0-4162-b715-21d95ac67c16")
 	)
-	(hierarchical_label "PWM_{ILow1}"
-		(shape output)
-		(at 63.5 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52402882-c82a-4b21-baa9-71f8df0782ec")
-	)
-	(hierarchical_label "PWM_{IIHigh2}"
-		(shape output)
-		(at 63.5 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5361eabd-ba08-4f22-ae0d-ab7c3e6f10c9")
-	)
-	(hierarchical_label "Relay"
-		(shape output)
-		(at 76.2 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5d159365-28b5-4eac-bab2-19ea12ff6ed4")
-	)
 	(hierarchical_label "PWM_{IHigh1}"
 		(shape output)
 		(at 48.26 63.5 180)
@@ -7027,17 +4487,6 @@
 		)
 		(uuid "60051cbd-ae4f-498d-bfff-485d5f38e5b1")
 	)
-	(hierarchical_label "V_{ILow}"
-		(shape input)
-		(at 85.09 186.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "62933320-aae3-438a-8a39-43a031f84f25")
-	)
 	(hierarchical_label "PWM_{IIHigh2}"
 		(shape output)
 		(at 48.26 58.42 180)
@@ -7048,28 +4497,6 @@
 			(justify right)
 		)
 		(uuid "67df0e89-ef01-472a-bde5-a84ea02be17d")
-	)
-	(hierarchical_label "V_{DCBus}"
-		(shape input)
-		(at 85.09 189.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7035508c-1556-49f9-abb7-d2ce6062e7dd")
-	)
-	(hierarchical_label "PWM_{IHigh1}"
-		(shape output)
-		(at 63.5 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "70deb792-85f3-4831-8c46-9f847ef6cc5a")
 	)
 	(hierarchical_label "I_{ILow1}"
 		(shape input)
@@ -7126,17 +4553,6 @@
 		)
 		(uuid "a9664d81-a64f-44b6-a920-a5f12d54d013")
 	)
-	(hierarchical_label "I_{AC}"
-		(shape input)
-		(at 77.47 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba525060-b4f7-448d-9227-8c29c07bde5c")
-	)
 	(hierarchical_label "PWM_{ILow2}"
 		(shape output)
 		(at 48.26 43.18 180)
@@ -7159,39 +4575,6 @@
 		)
 		(uuid "c6aa4988-8a87-4930-a6e6-e142143a1dd2")
 	)
-	(hierarchical_label "EN_{I}"
-		(shape output)
-		(at 73.66 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dbd3d0ec-5ad5-47bd-b887-cca7d11024da")
-	)
-	(hierarchical_label "PWM_{IILow2}"
-		(shape output)
-		(at 63.5 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef0f0d7a-de90-466d-9376-c4248151087a")
-	)
-	(hierarchical_label "PWM_{IIHigh1}"
-		(shape output)
-		(at 80.01 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f03d5ad5-3fb8-403b-99db-b04cd5834900")
-	)
 	(hierarchical_label "DIS_{HV}"
 		(shape output)
 		(at 175.26 83.82 0)
@@ -7202,17 +4585,6 @@
 			(justify left)
 		)
 		(uuid "f27ccc29-df05-468d-98d6-3601508b849b")
-	)
-	(hierarchical_label "PWM_{IILow1}"
-		(shape output)
-		(at 80.01 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5405d8c-eb5e-4dd5-bb76-0eb2e2008a4f")
 	)
 	(hierarchical_label "V_{DCBus}"
 		(shape input)
@@ -7294,7 +4666,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:WE-TVS-824015043")
+		(lib_id "Symbols:TVS-4-ways")
 		(at 147.32 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7304,7 +4676,7 @@
 		(fields_autoplaced yes)
 		(uuid "002b2182-95ea-4489-aa4b-e6732e6ec7fd")
 		(property "Reference" "U902"
-			(at 153.67 31.7499 0)
+			(at 153.67 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7395,7 +4767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 177.8 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7414,7 +4786,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 177.8 116.205 0)
+			(at 177.8 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,7 +4811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 177.8 111.76 0)
 			(effects
 				(font
@@ -7462,7 +4834,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.4199 43.18 90)
+		(at 58.42 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7470,7 +4842,7 @@
 		(dnp no)
 		(uuid "00f8a92b-eee2-4e56-835f-f5dc6dbc7dd3")
 		(property "Reference" "R911"
-			(at 56.896 27.94 90)
+			(at 56.8961 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7478,7 +4850,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 61.9759 40.64 90)
+			(at 61.976 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7487,7 +4859,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:R_0805_2012Metric"
-			(at 58.4199 44.958 90)
+			(at 58.42 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,7 +4868,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.4199 43.18 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7505,7 +4877,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.4199 43.18 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,7 +4886,7 @@
 			)
 		)
 		(property "LCSC" "C17437"
-			(at 58.4199 43.18 90)
+			(at 58.42 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,7 +4910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 127 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7557,7 +4929,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 127 59.055 0)
+			(at 127 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,7 +4954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 127 54.61 0)
 			(effects
 				(font
@@ -7680,12 +5052,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+12V_PGND")
+		(lib_id "power:+5V")
 		(at 102.87 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b50c0ac-56fd-4656-9d51-623ae14294ce")
@@ -7707,7 +5079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.045 33.02 0)
+			(at 102.87 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7716,7 +5088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.045 33.02 0)
+			(at 102.87 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7724,7 +5096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 102.87 35.56 0)
 			(effects
 				(font
@@ -7746,7 +5118,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 127 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7765,7 +5137,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 127 90.805 0)
+			(at 127 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +5162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 127 86.36 0)
 			(effects
 				(font
@@ -7812,12 +5184,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+3.3V_DGND")
+		(lib_id "power:+3.3V")
 		(at 107.95 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "2cf9c5e4-633f-4dac-a17e-1ba72e37370e")
 		(property "Reference" "#PWR0137"
@@ -7838,7 +5210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.125 41.91 0)
+			(at 107.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,7 +5219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.125 41.91 0)
+			(at 107.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7855,7 +5227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -7954,7 +5326,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:WE-TVS-824015043")
+		(lib_id "Symbols:TVS-4-ways")
 		(at 176.53 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7964,7 +5336,7 @@
 		(fields_autoplaced yes)
 		(uuid "3950f301-7df4-43bc-bbe7-27987e24b59c")
 		(property "Reference" "U903"
-			(at 182.88 31.7499 0)
+			(at 182.88 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8440,7 +5812,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 176.53 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8459,7 +5831,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 176.53 47.625 0)
+			(at 176.53 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,7 +5856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 176.53 43.18 0)
 			(effects
 				(font
@@ -8506,7 +5878,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 36.83 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8525,7 +5897,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 36.83 86.995 0)
+			(at 36.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +5922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 36.83 82.55 0)
 			(effects
 				(font
@@ -8725,12 +6097,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+3.3V_DGND")
+		(lib_id "power:+3.3V")
 		(at 176.53 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "5f5c00ef-5745-4d8d-9d60-3b2405012683")
 		(property "Reference" "#PWR0904"
@@ -8751,7 +6123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.705 19.05 0)
+			(at 176.53 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +6132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.705 19.05 0)
+			(at 176.53 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8768,7 +6140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 176.53 21.59 0)
 			(effects
 				(font
@@ -8867,8 +6239,7 @@
 		)
 	)
 	(symbol
-		(lib_name "OwnTech_SPIN_2")
-		(lib_id "Symbols:OwnTech_SPIN")
+		(lib_id "Symbols:OwnTech_SPIN2")
 		(at 128.27 95.25 0)
 		(mirror y)
 		(unit 3)
@@ -9346,8 +6717,7 @@
 		)
 	)
 	(symbol
-		(lib_name "OwnTech_SPIN_3")
-		(lib_id "Symbols:OwnTech_SPIN")
+		(lib_id "Symbols:OwnTech_SPIN2")
 		(at 57.15 114.3 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -9595,12 +6965,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+3.3V_DGND")
+		(lib_id "power:+3.3V")
 		(at 177.8 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "7ae8d56c-1d4a-4e3d-8c99-cda56f6301e0")
 		(property "Reference" "#PWR0133"
@@ -9621,7 +6991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.975 95.25 0)
+			(at 177.8 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9630,7 +7000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.975 95.25 0)
+			(at 177.8 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,7 +7008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 177.8 97.79 0)
 			(effects
 				(font
@@ -9660,8 +7030,7 @@
 		)
 	)
 	(symbol
-		(lib_name "OwnTech_SPIN_1")
-		(lib_id "Symbols:OwnTech_SPIN")
+		(lib_id "Symbols:OwnTech_SPIN2")
 		(at 69.85 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9671,7 +7040,7 @@
 		(fields_autoplaced yes)
 		(uuid "9eaa1781-d1a5-4ee0-adf6-3630b1769aef")
 		(property "Reference" "U901"
-			(at 82.55 25.4 0)
+			(at 82.55 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +7048,7 @@
 			)
 		)
 		(property "Value" "OwnTech_SPIN"
-			(at 82.55 27.94 0)
+			(at 82.55 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10074,7 +7443,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 147.32 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10093,7 +7462,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 147.32 47.625 0)
+			(at 147.32 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +7487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 147.32 43.18 0)
 			(effects
 				(font
@@ -10140,12 +7509,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+3.3V_DGND")
+		(lib_id "power:+3.3V")
 		(at 147.32 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "b8ecaa83-447c-4af2-a672-88a412b7d443")
 		(property "Reference" "#PWR0903"
@@ -10166,7 +7535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 150.495 19.05 0)
+			(at 147.32 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10175,7 +7544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 150.495 19.05 0)
+			(at 147.32 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10183,7 +7552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 147.32 21.59 0)
 			(effects
 				(font
@@ -10205,8 +7574,7 @@
 		)
 	)
 	(symbol
-		(lib_name "OwnTech_SPIN_2")
-		(lib_id "Symbols:OwnTech_SPIN")
+		(lib_id "Symbols:OwnTech_SPIN2")
 		(at 55.88 92.71 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -10454,7 +7822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 77.47 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10473,7 +7841,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 77.47 116.205 0)
+			(at 77.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10498,7 +7866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -10520,7 +7888,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:DGND")
+		(lib_id "power:GNDD")
 		(at 87.63 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10539,7 +7907,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 87.63 116.205 0)
+			(at 87.63 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10564,7 +7932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 87.63 111.76 0)
 			(effects
 				(font
@@ -10587,7 +7955,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.3843 60.96 90)
+		(at 58.42 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10595,7 +7963,7 @@
 		(dnp no)
 		(uuid "e4b65b40-d8c5-4f72-8daf-0152e350aef9")
 		(property "Reference" "R915"
-			(at 29.464 58.42 90)
+			(at 29.4997 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,7 +7971,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 61.9403 58.42 90)
+			(at 61.976 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10612,7 +7980,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:R_0805_2012Metric"
-			(at 58.3843 62.738 90)
+			(at 58.42 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10621,7 +7989,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.3843 60.96 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10630,7 +7998,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.3843 60.96 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10639,7 +8007,7 @@
 			)
 		)
 		(property "LCSC" "C17437"
-			(at 58.3843 60.96 90)
+			(at 58.42 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)

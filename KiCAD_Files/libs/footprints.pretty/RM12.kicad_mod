@@ -54,6 +54,30 @@
 		)
 	)
 	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -21.213203 0) (xy 0 -21.213203) (xy 21.213203 0) (xy 0 21.213203)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e89556cc-03de-4d32-b07f-9e43d85f5673")
+	)
+	(fp_poly
+		(pts
+			(xy -21.92031 0) (xy 0 -21.92031) (xy 21.92031 0) (xy 0 21.92031)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "072729e2-604d-493a-842d-27032636aa68")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)

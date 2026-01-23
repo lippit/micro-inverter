@@ -305,10 +305,11 @@
   (condition "((A.NetClass == 'L' && B.NetClass != 'L') || (B.NetClass == 'L' && A.NetClass != 'L')) && !(A.intersectsArea('AC_measurement') || B.intersectsArea('AC_measurement'))")
 )
 
+### EXCEPTION MADE FOR AC_MEASURMENT ZONE
 (rule "iso_N_to_non_N_wc_2p5mm_outer"
   (layer outer)
   (constraint clearance (min 2.5mm))
-  (condition "(A.NetClass == 'N' && B.NetClass != 'N') || (B.NetClass == 'N' && A.NetClass != 'N')")
+  (condition "((A.NetClass == 'N' && B.NetClass != 'N') || (B.NetClass == 'N' && A.NetClass != 'N')) && !(A.intersectsArea('AC_measurement') || B.intersectsArea('AC_measurement'))")
 )
 
 ########################################## INNER LAYERS ###############################################################

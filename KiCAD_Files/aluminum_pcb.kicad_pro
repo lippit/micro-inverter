@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -76,9 +76,9 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
@@ -88,25 +88,25 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "ignore",
+        "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -118,7 +118,7 @@
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
-        "unresolved_variable": "ignore",
+        "unresolved_variable": "warning",
         "via_dangling": "warning",
         "zones_intersect": "error"
       },
@@ -442,9 +442,9 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
+      "footprint_filter": "error",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -468,7 +468,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -745,8 +745,7 @@
         "DGND"
       ],
       "/Power/Grid Voltage sense/In+": [
-        "L",
-        "N"
+        "L"
       ],
       "/Power/HO1": [
         "DGND",
@@ -757,6 +756,7 @@
         "LSW2"
       ],
       "/Power/HV_{BUS}": [
+        "GND_HV",
         "HV"
       ],
       "/Power/LO1": [
@@ -794,9 +794,11 @@
         "GND_HV"
       ],
       "/Power/Rect1": [
+        "GND_HV",
         "HV"
       ],
       "/Power/Rect2": [
+        "GND_HV",
         "HV"
       ],
       "/Power/ThPad_{IND1}": [
@@ -859,9 +861,11 @@
         "N"
       ],
       "Net-(D101-K)": [
+        "GND_HV",
         "SN1"
       ],
       "Net-(D102-K)": [
+        "GND_HV",
         "SN2"
       ],
       "Net-(D5-A)": [
@@ -876,6 +880,9 @@
       "Net-(D703-A)": [
         "N"
       ],
+      "Net-(D703-K)": [
+        "N"
+      ],
       "Net-(D704-A)": [
         "N"
       ],
@@ -886,16 +893,18 @@
         "N"
       ],
       "Net-(FB1-Pad2)": [
+        "GND_HV",
         "SN2"
       ],
       "Net-(FB2-Pad2)": [
+        "GND_HV",
         "SN1"
       ],
       "Net-(FL1-Pad4)": [
         "N"
       ],
       "Net-(GD1-Pad3)": [
-        "AC"
+        "N"
       ],
       "Net-(J1-Pin_1)": [
         "L"
@@ -909,13 +918,19 @@
       "Net-(J8-Pin_1)": [
         "DGND"
       ],
+      "Net-(JP201-A)": [
+        "DGND"
+      ],
       "Net-(Q1-OUT+)": [
+        "GND_HV",
         "SN2"
       ],
       "Net-(Q1-OUT-)": [
+        "GND_HV",
         "SN2"
       ],
       "Net-(Q1-VDD)": [
+        "GND_HV",
         "SN2"
       ],
       "Net-(Q10-G)": [
@@ -925,12 +940,15 @@
         "DGND"
       ],
       "Net-(Q2-OUT+)": [
+        "GND_HV",
         "SN1"
       ],
       "Net-(Q2-OUT-)": [
+        "GND_HV",
         "SN1"
       ],
       "Net-(Q2-VDD)": [
+        "GND_HV",
         "SN1"
       ],
       "Net-(Q3-OUT+)": [
@@ -990,10 +1008,15 @@
         "N"
       ],
       "Net-(T1-SA)": [
+        "GND_HV",
         "HV"
       ],
       "Net-(T2-SA)": [
+        "GND_HV",
         "HV"
+      ],
+      "Net-(U201-+)": [
+        "DGND"
       ],
       "Net-(U3-HB)": [
         "DGND",
@@ -1077,6 +1100,9 @@
       ],
       "Net-(U704-VIN)": [
         "DGND"
+      ],
+      "Net-(U705-REF)": [
+        "N"
       ],
       "Net-(U707-BOOT)": [
         "DGND"
@@ -1165,15 +1191,19 @@
         "DGND"
       ],
       "unconnected-(Q1-NC-Pad4)": [
+        "GND_HV",
         "HV"
       ],
       "unconnected-(Q2-NC-Pad4)": [
+        "GND_HV",
         "HV"
       ],
       "unconnected-(Q3-NC-Pad4)": [
+        "GND_HV",
         "SN1"
       ],
       "unconnected-(Q4-NC-Pad4)": [
+        "GND_HV",
         "SN2"
       ],
       "unconnected-(U3-NC-Pad2)": [
