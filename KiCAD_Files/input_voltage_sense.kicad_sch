@@ -3,7 +3,14 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "a668460a-44d3-40ec-b390-fa122c73dcbf")
-	(paper "A3")
+	(paper "A4")
+	(title_block
+		(title "DC Input voltage measurement")
+		(date "2026-01-27")
+		(comment 1 "JAL")
+		(comment 2 "JAL")
+		(comment 3 "JAL")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

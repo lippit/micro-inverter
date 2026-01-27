@@ -675,11 +675,9 @@
         "GND_HV"
       ],
       "+5V_{SN1}": [
-        "GND_HV",
         "SN1"
       ],
       "+5V_{SN2}": [
-        "GND_HV",
         "SN2"
       ],
       "/Feeder/DIS_{HV}": [
@@ -689,6 +687,15 @@
         "N"
       ],
       "/Feeder/V_{ILow}": [
+        "DGND"
+      ],
+      "/Internal power supplies/DIS_{HV}": [
+        "DGND"
+      ],
+      "/Internal power supplies/Neut_{REF}": [
+        "N"
+      ],
+      "/Internal power supplies/V_{ILow}": [
         "DGND"
       ],
       "/Microcontroller/BOOT0": [
@@ -741,6 +748,87 @@
       ],
       "/Microcontroller/V_{ILow}": [
         "DGND"
+      ],
+      "/PWM Signal Isolators/OUT1_{GNDHV}": [
+        "GND_HV"
+      ],
+      "/PWM Signal Isolators/OUT1_{SN1}": [
+        "GND_HV",
+        "SN1"
+      ],
+      "/PWM Signal Isolators/OUT1_{SN2}": [
+        "GND_HV",
+        "SN2"
+      ],
+      "/PWM Signal Isolators/OUT2_{GNDHV}": [
+        "GND_HV"
+      ],
+      "/Power stage/AC Current sense/In+": [
+        "N"
+      ],
+      "/Power stage/AC Current sense/Vref": [
+        "DGND"
+      ],
+      "/Power stage/Grid Voltage sense/In+": [
+        "L"
+      ],
+      "/Power stage/HO1": [
+        "DGND",
+        "LSW1"
+      ],
+      "/Power stage/HO2": [
+        "DGND",
+        "LSW2"
+      ],
+      "/Power stage/HV_{BUS}": [
+        "GND_HV",
+        "HV"
+      ],
+      "/Power stage/LO1": [
+        "DGND"
+      ],
+      "/Power stage/LO2": [
+        "DGND"
+      ],
+      "/Power stage/LSW1": [
+        "DGND",
+        "LSW1"
+      ],
+      "/Power stage/LSW2": [
+        "DGND",
+        "LSW2"
+      ],
+      "/Power stage/LSW3": [
+        "DGND"
+      ],
+      "/Power stage/LSW4": [
+        "DGND"
+      ],
+      "/Power stage/Rect1": [
+        "GND_HV",
+        "HV"
+      ],
+      "/Power stage/Rect2": [
+        "GND_HV",
+        "HV"
+      ],
+      "/Power stage/ThPad_{IND1}": [
+        "DGND",
+        "PV"
+      ],
+      "/Power stage/ThPad_{IND2}": [
+        "DGND",
+        "PV"
+      ],
+      "/Power stage/V_{IHigh1}": [
+        "DGND"
+      ],
+      "/Power stage/V_{IHigh2}": [
+        "DGND"
+      ],
+      "/Power stage/V_{ILow}": [
+        "DGND",
+        "PV"
       ],
       "/Power/AC Current sense/In+": [
         "N"
@@ -1133,11 +1221,9 @@
         "DGND"
       ],
       "Net-(U804-REF)": [
-        "GND_HV",
         "SN1"
       ],
       "Net-(U805-REF)": [
-        "GND_HV",
         "SN2"
       ],
       "Net-(U806-REF)": [
@@ -1226,11 +1312,9 @@
         "DGND"
       ],
       "unconnected-(U801-OUTB-Pad6)": [
-        "GND_HV",
         "SN1"
       ],
       "unconnected-(U802-OUTB-Pad6)": [
-        "GND_HV",
         "SN2"
       ],
       "unconnected-(U901A-+VBAT-Pad39)": [
@@ -1486,7 +1570,7 @@
     },
     "net_format_name": "KiCad",
     "page_layout_descr_file": "kicad-embed://Title_block.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "./uVerter_schematic.pdf",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1504,11 +1588,11 @@
     ],
     [
       "361c2cca-6888-4386-bbcc-54e5a005596e",
-      "Power"
+      "Power stage"
     ],
     [
-      "246b2f8b-fd75-4f06-9ef0-fe962c35091f",
-      "AC Current sense"
+      "dbec3990-da67-43cc-b337-37357147c21c",
+      "Input voltage sense"
     ],
     [
       "2fdeb885-1239-432c-9b63-201e9100ec9c",
@@ -1519,16 +1603,16 @@
       "Grid Voltage sense"
     ],
     [
-      "ecb3e104-baec-42ee-909e-8fcaed71028a",
-      "Feeder"
-    ],
-    [
-      "dbec3990-da67-43cc-b337-37357147c21c",
-      "Input voltage sense"
+      "246b2f8b-fd75-4f06-9ef0-fe962c35091f",
+      "AC Current sense"
     ],
     [
       "24e4c348-bd85-449d-9688-086031288b31",
-      "Signal Isolators"
+      "PWM Signal Isolators"
+    ],
+    [
+      "ecb3e104-baec-42ee-909e-8fcaed71028a",
+      "Internal power supplies"
     ],
     [
       "e3472c2d-dba9-415a-aef4-437422a74d09",

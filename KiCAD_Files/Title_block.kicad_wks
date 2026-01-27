@@ -151,13 +151,6 @@
 		(repeat 100)
 		(incry 50)
 	)
-	(tbtext "Scale: ∅\n\n"
-		(name "text10:Text")
-		(pos 87.5 8.9)
-		(font
-			(face "Arial")
-		)
-	)
 	(line
 		(name "segm10:Line")
 		(start 110.0002 7.5002)
@@ -211,7 +204,7 @@
 	)
 	(tbtext "Id: ${#}/${##}"
 		(name "text17:Text")
-		(pos 24 4.6)
+		(pos 30.5 4.6002)
 		(font
 			(face "Arial")
 		)
@@ -236,7 +229,7 @@
 		(start 110.0002 53.0002)
 		(end 2.0002 53.0002)
 	)
-	(tbtext "Title: ${TITLE}"
+	(tbtext "${TITLE}"
 		(name "text18:Text")
 		(pos 109.5 48.2)
 		(font
@@ -260,7 +253,7 @@
 	)
 	(tbtext "Sheet: ${SHEETPATH}"
 		(name "text20:Text")
-		(pos 25.5 11)
+		(pos 87 11.0002)
 		(font
 			(face "Arial")
 		)
@@ -376,8 +369,8 @@
 	)
 	(line
 		(name "segm22:Line")
-		(start 26.0022 14.0072)
-		(end 26.0022 2.0072)
+		(start 30.989 7.5022)
+		(end 30.989 2.0022)
 	)
 	(tbtext "${COMMENT7}"
 		(name "text32:Text")
@@ -412,7 +405,7 @@
 		(start 2.0022 102.5072)
 		(end 110.0022 102.5072)
 	)
-	(tbtext "Source repository : https://github.com/owntech-foundation/ownverter"
+	(tbtext "Source repository : https://github.com/owntech-foundation/uVerter"
 		(name "text35:Text")
 		(pos 108.002 100.007)
 		(font
