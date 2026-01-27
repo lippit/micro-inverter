@@ -7,3 +7,5 @@ Symbols.bak
 replicate_layout.log
 *.kicad_sch.lck
 *.kicad_pcb.lck
+fabrication-toolkit-options.json
+calculation_notes/*
