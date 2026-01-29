@@ -1,5 +1,7 @@
 # An open-source - community built micro-inverter
 
+![3D view](KiCAD_Files/renderings/3D.png)
+
 ## Manifesto 
 
 The project goal are : 
@@ -13,24 +15,60 @@ The project goal are :
 - This project is propulsed by its community. 
 - The collective work generated is meant to remain open. 
 - Design files are made with open source software - Namely kiCAD.
+- Mechanical interfaces and components are modeled using FreeCAD.
+- Simulation files use ngSpice.
 
 In that sense, the owntech foundation aims at protecting this technical common.
 
-## Expected design crux 
+## Specifications
+This section is inspired from ![OpenMi](https://github.com/OpenCleanEnergy/OpenMI/)  
 
-The transformer `T1` is one of the core problems, we preferably would like to design the micro-inverter around a standard of the shelf transformer to enable easy replication. Manually wound transformer have wider parameters disparity which leads to non practical replications.
+Comparison of micro-inverters with rated output power between 350VA and 400VA:
 
-- Finding off the shelf high frequency transformers is hard
-- They tend not to have the required clearance and voltage isolation class. 
+| Model                                  | HM-350[^HM] | HM-400[^HM] | IQ7A[^IQ7A] |EVT300[^EVT300]|TSOL-M800[^TSOL] |
+|:---------------------------------------|:-----------:|:-----------:|:-----------:|:-------------:|:---------------:|
+| Manufacturer                           | Hoymiles    | Hoymiles    | Enphase     | Envertech     |    TSUN         |
+| Number of solar panels                 | 1           | 1           | 1           | 1             | 2               |
+| Recommended input power (W)            | 280-470+    | 320-540+    | 295-460     | 180-420+      |2 $\cdot$ 280-440|
+| $V_{MPPT,min}$ (V)                     | 33          | 34          | 38 (18)     | 24            | 33              |
+| $V_{MPPT,max}$ (V)                     | 48          | 48          | 43 (58)     | 45            | 48              |
+| Start-up voltage (V)                   | 22          | 22          | 22          | -             | -               |
+| Operating volage range (V)             | 16-60       | 16-60       | 16-58       | 18-54         | 16-60           |
+| Maximum input current (A)              | 11.5        | 12          | 12          | 12            | 11.5            |
+| Maximum input short circuit current (A)| 15          | 15          | 20          | 15            | 15              |
+| Rated output power (VA)                | 350         | 400         | 349         | 300           | 600             |
+| Peak efficiency (%)                    | 96.7        | 96.7        | 97.7        | 95.4          | 96.7            |
+| CEC weighted efficiency (%)            | 96.5        | 96.5        | 97.0        | 95.0          | 96.5            |
 
-## (ultra) Preliminary specifications
-
+Subject to further modifications, the micro-inverter should have the following specifications:
 - 230V 50Hz AC grid code compliant
-- 110V 60Hz maybe in the future by changing the transformer
-- 450W max per module
+- Efficiency > 95%
+- Operating range: 16V - 58V
+- Input power from solar panel: 350W - 550W
+- Power: 450VA with possibility of software limitation.
+- Power factor ≈ 1
+- Total Harmonic Distortion (THD) < 5%.
+- Electrical isolation between solar module and grid voltage
+- Temperature range: -40 °C to 60 °C
 - No invasive potting that prevents reparability
-- No constraints on height at least for first prototypes - (no real need to have it super flat but nice to have) 
-- Off the shelf transformer
+- Interfaces:
+  - WIFI
+
+## Renderings
+
+![Top view](KiCAD_Files/renderings/top_view.png)
+
+![Bottom view](KiCAD_Files/renderings/bottom_view.png)
+
+![Outside view](KiCAD_Files/renderings/outside.png)
+
+## Contribute 
+
+There are several ways you can contribute.
+
+- Star this repository
+
+
 
 ## Standards and directives
 
@@ -42,15 +80,9 @@ The transformer `T1` is one of the core problems, we preferably would like to de
 - EN 50438: Requirements for the connection of micro-generators in parallel with public low-voltage distribution networks.
 - EN 50549: Requirements for generating plants to be connected in parallel with distribution networks (superseeds DIN VDE 0126)
 
-### Power electronics related standards 
-- IEC-62477 Safety requirements for power electronic converter systems and equipment
-- IEC-60664 Insulation coordination for equipment within low-voltage supply systems
-- IEC-61000 Electromagnetic compatibility (EMC)
-
 ## Licence 
 
 This project is licenced under **CERN-OHL-V2-S** open source hardware licence. Licence file can be found under `License/cern-ohl-v2-s`. 
  
-
 
 

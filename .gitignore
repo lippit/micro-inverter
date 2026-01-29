@@ -8,3 +8,4 @@ replicate_layout.log
 *.kicad_pcb.lck
 fabrication-toolkit-options.json
 calculation_notes/*
+*.FCBak
