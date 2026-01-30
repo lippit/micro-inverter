@@ -40,19 +40,22 @@ Comparison of micro-inverters with rated output power between 350VA and 400VA:
 | Peak efficiency (%)                    | 96.7        | 96.7        | 97.7        | 95.4          | 96.7            |
 | CEC weighted efficiency (%)            | 96.5        | 96.5        | 97.0        | 95.0          | 96.5            |
 
-Subject to further modifications, the micro-inverter should have the following specifications:
-- 230V 50Hz AC grid code compliant
-- Efficiency > 95%
-- Operating range: 16V - 58V
-- Input power from solar panel: 350W - 550W
-- Power: 450VA with possibility of software limitation.
-- Power factor ≈ 1
-- Total Harmonic Distortion (THD) < 5%.
-- Electrical isolation between solar module and grid voltage
-- Temperature range: -40 °C to 60 °C
-- No invasive potting that prevents reparability
-- Interfaces:
-  - WIFI
+### uVerter Target specifications
+
+| Category | Requirement | Notes |
+|---|---:|---|
+| Grid | 230 V AC / 50 Hz | Designed for EU-style grids |
+| Grid compliance | Grid-code compliant | Exact certification scope depends on country / standard |
+| Rated apparent power | 450 VA | Software-limited power cap supported |
+| Input DC operating range | 16 V – 58 V | PV module operating window |
+| Recommended PV input power | 350 W – 550 W | Depends on module and thermal conditions |
+| Efficiency | > 95% | Target at nominal conditions |
+| Power factor | ≈ 1 | Near-unity PF at rated power |
+| THD | < 5% | Total harmonic distortion at rated conditions |
+| Isolation | Galvanic isolation | Electrical isolation between PV and grid |
+| Operating temperature | -40 °C to +60 °C | Derating may apply |
+| Repairability | No invasive potting | Designed to be serviceable / inspectable |
+| Connectivity | Wi-Fi | Local-first monitoring (no proprietary cloud required) |
 
 ## Renderings
 
