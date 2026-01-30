@@ -90,6 +90,30 @@ Whether you’re a student looking for a thesis topic, an engineer wanting to re
 Bring what you have: time, curiosity, test equipment, careful eyes, lived experience installing or repairing PV gear.  
 Let’s build an inverter that isn’t a black box — and keep it open, for everyone, forever.  
 
+## Safety first  
+
+### Disclaimer
+This project is shared as-is, without any warranty of any kind, and without any guarantee of compliance with safety, EMC, or grid-connection regulations.
+By building, modifying, or using this design, you accept full responsibility for verification, testing, certification (if applicable), and safe operation.
+
+Do not connect a prototype to the public grid.
+Grid connection must only happen after appropriate validation, protections, and (where required) third-party certification.
+
+### Mind the risks  
+Building a micro-inverter is an advanced DIY project. It combines high energy, high voltage, fast switching, and grid interaction — a mix that can injure, start fires, or damage property
+
+Key hazards include:
+
+- Electric shock and electrocution
+Internal stages can reach hundreds of volts. Multiple nets are high voltage. Some capacitors can stay charged after power-off. Treat the system as live until proven discharged and measured.
+
+- Fire and thermal runaway
+Faults can turn traces, connectors, inductors, or semiconductors into heaters in seconds. Thermal issues can escalate quickly.
+
+### A community note
+We want this project to be open — not reckless. If you spot a safety issue (creepage/clearance, insulation, thermal margins, protection logic, connector ratings, etc.), please report it.
+Safety improvements are contributions that protect everyone.
+
 ## Standards and directives
 
 ### Application related standards
