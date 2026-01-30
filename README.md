@@ -67,6 +67,8 @@ Comparison of micro-inverters with rated output power between 350VA and 400VA:
 
 ## Contribute 
 
+![Team banneer](Images/team_banneer.jpg)
+
 ### Spread the word
 
 - ⭐ Star this repository  
