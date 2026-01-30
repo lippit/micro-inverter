@@ -21,11 +21,11 @@ The project goal are :
 In that sense, the owntech foundation aims at protecting this technical common.
 
 ## Specifications
-This section is inspired from ![OpenMi](https://github.com/OpenCleanEnergy/OpenMI/)  
+This section is inspired from ![OpenMi](https://github.com/OpenCleanEnergy/OpenMI/)
 
 Comparison of micro-inverters with rated output power between 350VA and 400VA:
 
-| Model                                  | HM-350[^HM] | HM-400[^HM] | IQ7A[^IQ7A] |EVT300[^EVT300]|TSOL-M800[^TSOL] |
+| Model                                  | HM-350 | HM-400 | IQ7A |EVT300  |TSOL-M800  |
 |:---------------------------------------|:-----------:|:-----------:|:-----------:|:-------------:|:---------------:|
 | Manufacturer                           | Hoymiles    | Hoymiles    | Enphase     | Envertech     |    TSUN         |
 | Number of solar panels                 | 1           | 1           | 1           | 1             | 2               |

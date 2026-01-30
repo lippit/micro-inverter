@@ -1190,6 +1190,7 @@
 			(stroke
 				(width 0)
 				(type dash)
+				(color 0 72 0 1)
 			)
 			(fill
 				(type none)
