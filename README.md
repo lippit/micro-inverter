@@ -64,11 +64,31 @@ Subject to further modifications, the micro-inverter should have the following s
 
 ## Contribute 
 
-There are several ways you can contribute.
+### Spread the word
 
-- Star this repository
+- ⭐ Star this repository  
 
+- Share the project with PV / power electronics / open-hardware communities  
 
+- Mention it in meetups, forums, maker spaces, or your local energy co-op  
+
+### Give feedback and report issues
+
+Help us improve by opening GitHub issues:
+
+- Bug reports (schematic/PCB mistakes, BOM mismatches, mechanical interferences)  
+
+- Documentation gaps (unclear steps, missing diagrams, confusing naming)  
+
+- Feature requests  
+
+### Choose a contribution path
+
+Start with ![Contribute.md](Contribute.md) — a living list of work items the community can pick up.  
+Whether you’re a student looking for a thesis topic, an engineer wanting to review a safety-critical design, or a maker growing skills in hardware and firmware: you’re welcome here.  
+
+Bring what you have: time, curiosity, test equipment, careful eyes, lived experience installing or repairing PV gear.  
+Let’s build an inverter that isn’t a black box — and keep it open, for everyone, forever.  
 
 ## Standards and directives
 
