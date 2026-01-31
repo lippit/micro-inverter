@@ -65,6 +65,19 @@ Comparison of micro-inverters with rated output power between 350VA and 400VA:
 
 ![Outside view](KiCAD_Files/renderings/outside.png)
 
+## Control overview
+
+![Control overview](Images/control_overview.png)
+
+The control overview shows the uVerter as two coordinated stages: a PV-controlled DC/DC front end that regulates the panel operating point and raises the DC bus, followed by an AC control stage that shapes a grid-compliant AC output. Measurements and commands flow through Data I/O and the grid-compliance controller so the inverter can synchronize to line/neutral, limit harmonics, and maintain safe operation while power flows from the PV input to the grid.
+
+## Firmware overview
+
+The `firmware/src/main.cpp` file is the entry point for the uVerter firmware: it configures the sensors and power stages, sets up the real-time and background tasks, and runs the state machine plus control loops that drive the boost and inverter legs based on measurements and synchronization status.
+
+- Real-time control runs in `loop_critical_task()` at 100 µs to read sensors, enforce protections, regulate the boost stage, compute duty cycles, and update grid-sync variables.
+- Supervisory logic runs in `loop_application_task()` to manage modes (idle/startup/power/error), handle transitions, and expose telemetry through the user data API.
+
 ## Contribute 
 
 ![Team banneer](Images/team_banneer.jpg)
@@ -133,5 +146,4 @@ Safety improvements are contributions that protect everyone.
 
 This project is licenced under **CERN-OHL-V2-S** open source hardware licence. Licence file can be found under `License/cern-ohl-v2-s`. 
  
-
 

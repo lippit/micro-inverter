@@ -45,6 +45,9 @@ A good PR is small, reviewable, and documented:
 
 ## Firmware (control, protection, bring-up)
 
+- Add a hard real-time protection layer in `loop_critical_task()` that can force “cease to energize” (e.g., `shield.power.stop(ALL)` plus gate/relay disable) within grid-code limits, independent of control flow.
+- Improve ride-through vs anti-islanding by tuning synchronization logic in `loop_critical_task()` (e.g., `is_net_synchronized`, `sync_counter`, `desync_counter`) and refining the `STARTUPMODE`/`POWERMODE` transitions in `loop_application_task()`.
+- Implement deterministic grid-code behaviors with explicit timing using the state machine in `loop_application_task()` and setpoint/duty shaping in `loop_critical_task()` (e.g., `rate_limiter()` for ramps and `mode_asked` for reconnection delays).
 
 ---
 
