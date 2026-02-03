@@ -20791,7 +20791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:L_SMD_L27.0-W19.5-LS23.5_60B104C"
+		(property "Footprint" "Footprints:L_SMD_L28.0-W23-LS25"
 			(at 213.36 73.66 0)
 			(effects
 				(font
@@ -21607,7 +21607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:L_SMD_L27.0-W19.5-LS23.5_60B104C"
+		(property "Footprint" "Footprints:L_SMD_L28.0-W23-LS25"
 			(at 213.36 55.88 0)
 			(effects
 				(font
