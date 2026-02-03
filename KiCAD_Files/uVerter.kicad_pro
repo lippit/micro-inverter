@@ -512,7 +512,7 @@
       {
         "name": "AC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -525,7 +525,7 @@
         "microvia_drill": 0.1,
         "name": "DGND",
         "pcb_color": "rgb(0, 72, 0)",
-        "priority": 8,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -542,7 +542,7 @@
         "microvia_drill": 0.1,
         "name": "GND_HV",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 12,
+        "priority": 14,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -552,25 +552,37 @@
       {
         "name": "HV",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "L",
         "pcb_color": "rgb(128, 77, 0)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "LSW1",
         "pcb_color": "rgb(255, 255, 0)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "LSW2",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 6,
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "LSW3",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "LSW4",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -583,7 +595,7 @@
         "microvia_drill": 0.1,
         "name": "LV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -593,19 +605,19 @@
       {
         "name": "N",
         "pcb_color": "rgb(0, 0, 194)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PEarth",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PV",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -618,7 +630,7 @@
         "microvia_drill": 0.1,
         "name": "SN1",
         "pcb_color": "rgb(255, 255, 0)",
-        "priority": 10,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -635,7 +647,7 @@
         "microvia_drill": 0.1,
         "name": "SN2",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 11,
+        "priority": 13,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -1415,6 +1427,22 @@
       {
         "netclass": "PEarth",
         "pattern": "Earth_Protective"
+      },
+      {
+        "netclass": "LSW3",
+        "pattern": "/Power stage/LSW3"
+      },
+      {
+        "netclass": "LSW4",
+        "pattern": "/Power stage/LSW4"
+      },
+      {
+        "netclass": "PV",
+        "pattern": "/Power stage/V_{IHigh1}"
+      },
+      {
+        "netclass": "PV",
+        "pattern": "/Power stage/V_{IHigh2}"
       }
     ]
   },
@@ -1447,7 +1475,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,
@@ -1456,7 +1484,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -1510,10 +1538,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1531,7 +1559,7 @@
           "group_by": false,
           "label": "Position Offset",
           "name": "Position Offset",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",

@@ -253,6 +253,18 @@
   (condition "((A.NetClass == 'LSW2' && B.NetClass != 'LSW2') || (B.NetClass == 'LSW2' && A.NetClass != 'LSW2')) && !(A.intersectsArea('bootstrap_driver_LS') || B.intersectsArea('bootstrap_driver_LS'))")
 )
 
+(rule "iso_LSW3_to_non_LSW3_wc_0p6mm_outer"
+  (layer outer)
+  (constraint clearance (min 0.6mm))
+  (condition "((A.NetClass == 'LSW3' && B.NetClass != 'LSW3') || (B.NetClass == 'LSW3' && A.NetClass != 'LSW3'))")
+)
+
+(rule "iso_LSW4_to_non_LSW4_wc_0p6mm_outer"
+  (layer outer)
+  (constraint clearance (min 0.6mm))
+  (condition "((A.NetClass == 'LSW4' && B.NetClass != 'LSW4') || (B.NetClass == 'LSW4' && A.NetClass != 'LSW4'))")
+)
+
 #EXCEPTION MADE FOR LV SHUNT MEASUREMENTS
 (rule "iso_PV_to_non_PV_wc_0p6mm_outer"
   (layer outer)
@@ -278,6 +290,18 @@
   (layer inner)
   (constraint clearance (min 0.2mm))
   (condition "(A.NetClass == 'LSW2' && B.NetClass != 'LSW2') || (B.NetClass == 'LSW2' && A.NetClass != 'LSW2')")
+)
+
+(rule "iso_LSW3_to_non_LSW3_wc_0p2mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.2mm))
+  (condition "((A.NetClass == 'LSW3' && B.NetClass != 'LSW3') || (B.NetClass == 'LSW3' && A.NetClass != 'LSW3'))")
+)
+
+(rule "iso_LSW4_to_non_LSW4_wc_0p2mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.2mm))
+  (condition "((A.NetClass == 'LSW4' && B.NetClass != 'LSW4') || (B.NetClass == 'LSW4' && A.NetClass != 'LSW4'))")
 )
 
 (rule "iso_PV_to_non_PV_wc_0p2mm_inner"
