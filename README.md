@@ -78,6 +78,32 @@ The `firmware/src/main.cpp` file is the entry point for the uVerter firmware: it
 - Real-time control runs in `loop_critical_task()` at 100 µs to read sensors, enforce protections, regulate the boost stage, compute duty cycles, and update grid-sync variables.
 - Supervisory logic runs in `loop_application_task()` to manage modes (idle/startup/power/error), handle transitions, and expose telemetry through the user data API.
 
+### Compiling
+
+Micro-inverter uses [PlatformIO](https://platformio.org/) as it's build and dependency management system.
+
+#### From the command line
+
+1. Create and activate a Python virtual environment.
+
+        python3 -m venv .owntech-venv
+        source .owntech-venv/bin/activate
+
+2. Install PlatformIO.
+
+        pip3 install platformio
+
+3. Compile the code. Dependencies (including Zephyr and Owntech libraries) are downloaded automatically.
+
+        cd micro-inverter/firmware/
+        pio run
+
+#### In Visual Studio Code
+
+1. Install the "PlatformIO IDE" extension
+2. Open the `firmware` directory via PlatformIO's home screen (**not** with VSCode's File -> Open)
+3. Press the "Build" button in the PlatformIO toolbar (found on the bottom left)
+
 ## Contribute 
 
 ![Team banneer](Images/team_banneer.jpg)
