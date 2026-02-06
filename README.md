@@ -44,7 +44,7 @@ Comparison of micro-inverters with rated output power between 350VA and 400VA:
 
 | Category | Requirement | Notes |
 |---|---:|---|
-| Grid | 230 V AC / 50 Hz | Designed for EU-style grids |
+| Grid | 220 V AC to 250V AC / 50 to 60 Hz   | Hardware not compatible with 110V grids |
 | Grid compliance | Grid-code compliant | Exact certification scope depends on country / standard |
 | Rated apparent power | 450 VA | Software-limited power cap supported |
 | Input DC operating range | 16 V – 58 V | PV module operating window |
