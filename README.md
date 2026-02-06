@@ -160,16 +160,42 @@ Safety improvements are contributions that protect everyone.
 
 ## Standards and directives
 
-### Application related standards
+### Relevant EU directives for CE
 
-- IEC 62109: Safety requirements for photovoltaic inverters.
-- IEC 61727: Requirements for photovoltaic (PV) systems to interface with the utility grid.
-- IEC 62116: Test procedure for islanding prevention measures for utility-interconnected photovoltaic inverters.
-- EN 50438: Requirements for the connection of micro-generators in parallel with public low-voltage distribution networks.
-- EN 50549: Requirements for generating plants to be connected in parallel with distribution networks (superseeds DIN VDE 0126)
+- Directive 2001/95/EC: General Product Safety
+- Directive 2014/30/EU: Electromagnetic Compatibility (EMC)
+- Directive 2014/35/EU: Low Voltage (LVD)
+- Directive 2014/53/EU: Radio Equipment (RED)
+- Directive 2011/65/EU: Restriction of the use of certain Hazardous Substances (RoHS)
+
+### Low Voltage Directive (LVD)
+
+**EN IEC 62109-1:2010**
+Safety of power converters for use in photovoltaic power systems - Part 1: General requirements
+
+**EN IEC 62109-2:2011**
+Safety of power converters for use in photovoltaic power systems - Part 2: Particular requirements for inverters
+
+### Electromagnetic Compatibility (EMC)
+
+**EN 62920:2017+A11+A1:2021**
+Photovoltaic power generating systems - EMC requirements and test methods for power conversion equipment
+
+**ETSI EN 301 489-1**
+ElectroMagnetic Compatibility (EMC) standard for radio equipment and services; Part 1: Common technical requirements
+
+**ETSI EN 301 489-17**
+ElectroMagnetic Compatibility (EMC) standard for radio equipment and services; Part 17: Specific conditions for Broadband Data Transmission Systems
+
+### Radio Equipment Directive (RED)
+
+**ETSI EN 300 328 V2.2.2**
+Wideband transmission systems; Data transmission equipment operating in the 2,4 GHz band; Harmonised Standard for access to radio spectrum
+
+### Grid Regulations
+
+As grid regulations are country specific, please refer to ![Grid regulations](Grid_regulations.md)
 
 ## Licence 
 
 This project is licenced under **CERN-OHL-V2-S** open source hardware licence. Licence file can be found under `License/cern-ohl-v2-s`. 
- 
-
